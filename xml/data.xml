@@ -1,0 +1,3195 @@
+<document>
+	
+	<applicationDetails>
+		
+		<applicationName><![CDATA[RMG Text/Image Browser]]></applicationName>
+		<applicationVersionNumber><![CDATA[0.1]]></applicationVersionNumber>
+		<applicationLastUpdate>
+			<updateDeveloper><![CDATA[Ben Raithby]]></updateDeveloper>
+			<updateDate><![CDATA[10/August/2016]]></updateDate>
+		</applicationLastUpdate>
+		<applicationComment><![CDATA[This document is used to store data for the "RMG Text Image Browser" interactive. The software was created for use in the testing of the proposed Polar Diary exhibit in the Polar Gallery at the Royal Museums Greenwich. This software's foundation code was laid down on the 20/July/2016.]]></applicationComment>
+		
+	</applicationDetails>
+	
+	
+	<settings>
+		
+		<debugModeEnabled>false</debugModeEnabled>
+		<imagePaths>
+			<uiImagePath>img/ui/</uiImagePath>
+			<thumbImagePath>img/t/</thumbImagePath>
+			<largeImagePath>img/l/</largeImagePath>
+		</imagePaths>
+		<timeValues>
+			<timeoutMilliseconds default="180000">180000</timeoutMilliseconds>
+			<stilleThereSeconds>10</stilleThereSeconds>
+		</timeValues>
+		<stringValues>
+			<!-- 
+			<callToAction><![CDATA[]]><callToAction>
+			-->
+			<callToAction><![CDATA[]]></callToAction>
+			<attractMessageHead><![CDATA[Royal Museums Greenwich]]></attractMessageHead>
+			<attractMessageSubhead><![CDATA[Polar Diary Entries]]></attractMessageSubhead>
+			<attractMessageBody><![CDATA[Snapshots of life through the eyes of polar explorers.]]></attractMessageBody>
+			<mainMenuScreenHeading><![CDATA[Choose a category to explore Antarctic diary entries]]></mainMenuScreenHeading>
+			<mainMenuScreenBodyCopy><![CDATA[]]></mainMenuScreenBodyCopy>
+		</stringValues>
+		
+	</settings>
+
+	<attractor>
+		<name>Polar Diaries</name>
+		<text>Explore the stories and experiences of polar explorers in their own words, through their personal diaries.</text>
+	</attractor>
+	
+	<quotes>
+		
+		<!-- EXAMPLE
+		<quote number="0">
+			<imageCode>0</imageCode>
+			<body><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sagittis hendrerit commodo. Suspendisse sed metus ligula. Mauris malesuada, ante sit amet interdum consectetur, tellus magna pretium ligula, a aliquam mauris tellus eu purus. Mauris non ultricies lacus. Suspendisse blandit ex libero, quis posuere lacus rhoncus eu. Aenean eu mauris gravida.]]></body>
+			<author><![CDATA[]]></author>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[Book2016-00]]></accessionNumber>
+		</quote>
+		-->
+		
+		<!-- 1 >> 10 -->
+		<quote number="1">
+			<imageCode>img1</imageCode>
+			<imagedescription><![CDATA[Leopard seal (Hydrurga leptonyx) in the water at Bird Island. British Antarctic Survey / Ewan Edwards]]></imagedescription>
+			<body><![CDATA[‘On our arrival at the coast of this island, a leopard seal emerged a few metres away from the boat, like some mythological divine guardian of the place confronting visitors from a foreign land.’]]></body>
+			<author><![CDATA[Jean-Baptiste Charcot]]></author>
+			<date><![CDATA[24 March 1904]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Antarctic Wildlife]]></category>
+		</quote>
+		<quote number="2">
+			<imageCode>img2</imageCode>
+			<imagedescription><![CDATA[Illustration of a killer whale attacking a seal, South Polar Times, 1902, PBB4147/1]]></imagedescription>
+			<body><![CDATA[‘A lot of Killer Whales. These eat seals, penguins or anything they can get even breaking up floes to get at them.’ ]]></body>
+			<author><![CDATA[Victor Campbell]]></author>
+			<date><![CDATA[5 January 1911]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Antarctic Wildlife]]></category>
+		</quote>
+		
+		<quote number="3">
+			<imageCode>img3</imageCode>
+			<imagedescription><![CDATA[Photograph of Antarctic explorers with dead penguins, 1902-4, HSR/Z/56]]></imagedescription>
+			<body><![CDATA[‘Photographed and weighed penguins today, the heaviest being 90 lbs. the largest on record’]]></body>
+			<author><![CDATA[William Lashly ]]></author>
+			<date><![CDATA[8 April 1902]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Antarctic Wildlife]]></category>
+		</quote>
+		<quote number="4">
+			<imageCode>img4</imageCode>
+			<imagedescription><![CDATA[Photograph of icebergs off Antarctica, 1911, ALB1217.26]]></imagedescription>
+			<body><![CDATA[‘It was a lovely night, and as we stood still, you could hear the peculiar noises that the ice makes, and the breathing of the seals as they came up for a blow’. ]]></body>
+			<author><![CDATA[Charles Royds]]></author>
+			<date><![CDATA[9 May 1902]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Antarctic Wildlife]]></category>
+		</quote>
+			<quote number="5">
+			<imageCode>img5</imageCode>
+			<imagedescription><![CDATA[Detail of an illustration showing an Antarctic explorer with a camera, South Polar Times, 1911, PBB4147/3]]></imagedescription>
+			<body><![CDATA[ ‘…I got out my camera and went penguin charming.’ ]]></body>
+			<author><![CDATA[Frank Debenham]]></author>
+			<date><![CDATA[13 December 1910]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Antarctic Wildlife]]></category>
+		</quote>
+			<quote number="6">
+			<imageCode>img6</imageCode>
+			<imagedescription><![CDATA[Photograph of penguins resting, 1911, ALB1217.15]]></imagedescription>
+			<body><![CDATA[‘I killed [a penguin] with chloroform after first stunning it, and intend to skin it tomorrow.’]]></body>
+			<author><![CDATA[George Murray Levick]]></author>
+			<date><![CDATA[14 November 1911]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Antarctic Wildlife]]></category>
+		</quote>
+			<quote number="7">
+			<imageCode>img7</imageCode>
+			<imagedescription><![CDATA[Photograph of a penguin, 1902-4, HSR/Z/56]]></imagedescription>
+			<body><![CDATA[‘Last night going for a walk, I noticed a penguin following me for some time so I sat down. He came and began nibbling at my boots then my wrists and finally my neck. After that he picked up a stone and laid it beside me, whether to help me build a nest or as a token of friendship I can’t say, but there is something very nice in having them as friendly as this.’]]></body>
+			<author><![CDATA[Victor Campbell]]></author>
+			<date><![CDATA[30 November 1911]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Antarctic Wildlife]]></category>
+		</quote>
+			<quote number="8">
+			<imageCode>img8</imageCode>
+			<imagedescription><![CDATA[Photograph of a penguin rookery, 1901-3, ALB0346.48]]></imagedescription>
+			<body><![CDATA[‘Heartily sick of Penguins, trying to dodge them, kicking them out of the way, &c. One brute repeatedly dodged in front & as I tried to avoid him got in a hard peck on my leg.’]]></body>
+			<author><![CDATA[Charles Harrisson]]></author>
+			<date><![CDATA[16 December 1911]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Antarctic Wildlife]]></category>
+		</quote>
+		<quote number="9">
+			<imageCode>img9</imageCode>
+			<imagedescription><![CDATA[Photograph of skua gulls, 1911, ALB1217.12]]></imagedescription>
+			<body><![CDATA[‘You would have thought that here in the south we should enjoy the company of the animals, but one thing is certain: these gulls irritate the life out of us. The noise they make is indescribable. They have lost all our sympathy, and now we use them as targets.’ ]]></body>
+			<author><![CDATA[Tryggve Gran]]></author>
+			<date><![CDATA[17 January 1912]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Antarctic Wildlife]]></category>
+		</quote>
+		<quote number="10">
+			<imageCode>img10</imageCode>
+			<imagedescription><![CDATA[Antarctic explorers catching a seal, 1901-3, ALB0346.3]]></imagedescription>
+			<body><![CDATA[‘I used to consider a big, stale shark had the most offensive guts of any living thing but this [seal] wins hands down. Wherever the knife goes in, Puff, out comes a whiff of gas. Oh it is a veritable little lavender bed.’]]></body>
+			<author><![CDATA[B.E.S. Ninnis]]></author>
+			<date><![CDATA[13 February 1912]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Antarctic Wildlife]]></category>
+		</quote>
+		<quote number="11">
+			<imageCode>img11</imageCode>
+			<imagedescription><![CDATA[Stuffed Emperor penguin, early 1900s, AAA4136]]></imagedescription>
+			<body><![CDATA[‘This afternoon I skinned a Penguin for myself, to be stuffed if possible, and a very difficult job it was too.  I have the bones to do yet.’]]></body>
+			<author><![CDATA[Stanley Taylor]]></author>
+			<date><![CDATA[24 February 1913]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Antarctic Wildlife]]></category>
+		</quote>
+		<quote number="12">
+			<imageCode>img12</imageCode>
+			<imagedescription><![CDATA[Photograph of Antarctic explorers with a leopard seal, 1911, ALB1217.33]]></imagedescription>
+			<body><![CDATA['…we found a young sea leopard on the beach: I found however that it is the close season, and that we were still in civilised parts. The Carpenter seemed annoyed at not being allowed to kill it.' ]]></body>
+			<author><![CDATA[James Wordie]]></author>
+			<date><![CDATA[7 November 1914 [42]]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Antarctic Wildlife]]></category>
+		</quote>
+		
+		<!-- END ANTARCTIC WILDLIFE -->
+		<!-- Arguments and Frustration -->
+		
+		<quote number="13">
+			<imageCode>img13</imageCode>
+			<imagedescription><![CDATA[Photograph of an Antarctic hut, 1911, ALB1217.20]]></imagedescription>
+			<body><![CDATA[‘Familiarity breeds contempt … All packed together in this miserable, dirty hut -- unable to go out and the only diversion the musical box grinding out indescribably sad melodies.’]]></body>
+			<author><![CDATA[Louis Charles Bernacchi]]></author>
+			<date><![CDATA[19-21 January 1900]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Arguments and Frustration]]></category>
+		</quote>
+		<quote number="14">
+			<imageCode>img14</imageCode>
+			<imagedescription><![CDATA[Photograph of Robert Falcon Scott, 1911, ALB1217.40]]></imagedescription>
+			<body><![CDATA[‘Of course [Scott’s] ideas are on the whole perfectly right, that is one must be careful about [how much bags weigh] … but he is ‘fussy’ about it & why he listens to Shackleton so much beats me. The man is just an ordinary ‘gas-bag’.’]]></body>
+			<author><![CDATA[Reginald Skelton]]></author>
+			<date><![CDATA[11 September 1902]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Arguments and Frustration]]></category>
+		</quote>
+		<quote number="15">
+			<imageCode>img15</imageCode>
+			<imagedescription><![CDATA[Cigarette card from ‘Polar Exploration’ series, 1916, ZBA2283.24]]></imagedescription>
+			<body><![CDATA[‘…if [Norwegian explorer Roald Amundsen] has not met with adversity he should have reached the Pole by now. I hope he has not as I regard him as a back handed sneaking ruffian.’]]></body>
+			<author><![CDATA[Henry Bowers]]></author>
+			<date><![CDATA[4 December 1911]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Arguments and Frustration]]></category>
+		</quote>
+		<quote number="16">
+			<imageCode>img16</imageCode>
+			<imagedescription><![CDATA[Cigarette card from ‘Polar Exploration’ series, 1916, ZBA2283.5]]></imagedescription>
+			<body><![CDATA[‘I reported [my breaking a scientific instrument] & got an unusual outburst of wrath [from Scott] in consequence, in fact my name is mud just at present – it is rather sad to get into the dirt tub with one’s leader at this juncture but accidents will happen & this was not carelessness as I look after my instruments with the utmost care.’]]></body>
+			<author><![CDATA[Henry Bowers]]></author>
+			<date><![CDATA[27 December 1911]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Arguments and Frustration]]></category>
+		</quote>
+		<quote number="17">
+			<imageCode>img17</imageCode>
+			<imagedescription><![CDATA[Portrait of Captain John King Davis, State Library of New South Wales, [IE1556289]]]></imagedescription>
+			<body><![CDATA[‘…I have hardly been friendly to anyone this last month, with the constant worry and anxiety, let alone the repeated disappointment.’]]></body>
+			<author><![CDATA[John King Davis]]></author>
+			<date><![CDATA[21 February 1912]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Arguments and Frustration]]></category>
+		</quote>
+		<quote number="18">
+			<imageCode>img18</imageCode>
+			<imagedescription><![CDATA[Extract from Bert Lincoln’s diary. By kind permission of Sharyn Smith & Douglas H. Quin]]></imagedescription>
+			<body><![CDATA[‘…the men forward who had cameras were busy taking snapshots whenever we passed close to an exceptionally grand [iceberg]. They have to do it on the sly of course as we sign articles in the ship not to take any specimens, photos or keep a diary, nor to say anything concerning the expedition for a period of at least twelve months after the expedition is finished. This, of course is to allow Mawson and his scientists and ship's officers to spin their tales without being contradicted by the sailors…’]]></body>
+			<author><![CDATA[Bert Lincoln]]></author>
+			<date><![CDATA[31 January 1913]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Arguments and Frustration]]></category>
+		</quote>
+		<quote number="19">
+			<imageCode>img19</imageCode>
+			<imagedescription><![CDATA[Illustration showing a sailor, South Polar Times, 1903, PBB4147/2]]></imagedescription>
+			<body><![CDATA[‘The ice was thawing again and a piece fell on [a sailor’s] nose … he went and put a piece of paper on it to keep the cold from getting into the wound … the boatswain growled at him … & then attempted to hit him for stopping working and they had a rough and tumble on the deck among the ice and slush and water’]]></body>
+			<author><![CDATA[Bert Lincoln]]></author>
+			<date><![CDATA[7 February 1913]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Arguments and Frustration]]></category>
+		</quote>
+		<quote number="20">
+			<imageCode>img20</imageCode>
+			<imagedescription><![CDATA[Photograph of Ernest Shackleton, 1901-3, ALB0346.6]]></imagedescription>
+			<body><![CDATA['Yesterday a wave of depression seemed to come over everybody on board: it was soon noticed that it was best not to get in the Boss's way.']]></body>
+			<author><![CDATA[James Wordie]]></author>
+			<date><![CDATA[29 January 1915]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Arguments and Frustration]]></category>
+		</quote>
+		
+
+		<!-- END Arguments and Frustration -->
+		<!-- Death and Danger -->
+		
+		<quote number="21">
+			<imageCode>img21</imageCode>
+			<imagedescription><![CDATA[Illustration of Antarctic explorers crossing ice, South Polar Times, 1911, PBB4147/3]]></imagedescription>
+			<body><![CDATA[‘Mr Ford … fell over a precipice and broke his leg in two places about 2 ½ miles from the ship. Sent out relief party and fetched him home in rather a frozen state.’]]></body>
+			<author><![CDATA[William Lashly]]></author>
+			<date><![CDATA[17 February 1902]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Death and Danger]]></category>
+		</quote>
+		
+		<quote number="22">
+			<imageCode>img22</imageCode>
+			<imagedescription><![CDATA[Photograph of Mount Erebus, 1911, ALB1219.9]]></imagedescription>
+			<body><![CDATA[‘At 3.15am I again heard the roar of an avalanche, much nearer than the last one’.]]></body>
+			<author><![CDATA[Charles Royds]]></author>
+			<date><![CDATA[8 March 1902 ]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Death and Danger]]></category>
+		</quote>
+		<quote number="23">
+			<imageCode>img23</imageCode>
+			<imagedescription><![CDATA[Footprints in the snow alongside Reptile Ridge. British Antarctic Survey / Pete Bucktrout]]></imagedescription>
+			<body><![CDATA[‘There is no doubt, that in this weather once you become lost, it becomes nearly hopeless, as one may go wandering about for hours trying to recognize some point or other which has been absolutely changed by drifting snow, and as for seeing, you can’t see a man 2 yards ahead of you.’]]></body>
+			<author><![CDATA[Charles Royds]]></author>
+			<date><![CDATA[31 July 1902]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Death and Danger]]></category>
+		</quote>
+		<quote number="24">
+			<imageCode>img24</imageCode>
+			<imagedescription><![CDATA[Illustration of a blizzard taken from the South Polar Times, 1902, ALB0346.25]]></imagedescription>
+			<body><![CDATA[‘… [William Lashly] came back and found his bag missing. I just caught him going to look for it in time. Ordered him back and cussed him for a fool, as through the blizzard that was now blowing, one couldn’t see a yard. I told him I didn’t mind losing a bag, but I wasn’t going to lose a man.’]]></body>
+			<author><![CDATA[Charles Royds]]></author>
+			<date><![CDATA[15 September 1902]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Death and Danger]]></category>
+		</quote>
+		<quote number="25">
+			<imageCode>img25</imageCode>
+			<imagedescription><![CDATA[Illustration of Antarctic explorers pulling a sledge, South Polar Times, 1902, PBB4147/1]]></imagedescription>
+			<body><![CDATA[‘Our imagination now began to play us tricks. We thought we could see men coming towards us, so we shouted and yelled with all our might and main. Nobody answered our desperate shouts.’ ]]></body>
+			<author><![CDATA[A.L.A. Mackintosh]]></author>
+			<date><![CDATA[11 January 1909]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Death and Danger]]></category>
+		</quote>
+		<quote number="26">
+			<imageCode>img26</imageCode>
+			<imagedescription><![CDATA[The dorsal fin and saddle patch of a male orca (Orcinus orca) in Ryder Bay, Antarctic Peninsula. British Antarctic Survey / Michael Meredith]]></imagedescription>
+			<body><![CDATA[‘Today nine killer whales nearly got Ponting by breaking the ice underneath him …They evidently took him for a penguin.’]]></body>
+			<author><![CDATA[Charles S. Wright]]></author>
+			<date><![CDATA[5 January 1911]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Death and Danger]]></category>
+		</quote>
+		<quote number="27">
+			<imageCode>img27</imageCode>
+			<imagedescription><![CDATA[Leaning on the wind, 1907-1914, by Frank Hurley, National Library of Australia, PIC FH 10885 LOC H2/10]]></imagedescription>
+			<body><![CDATA[‘Abbott, who is a gymnastic instructor and 14 stone in his clothes, came out of the hut to empty a pail of water. As the wind caught him he was whisked along about ten yards’]]></body>
+			<author><![CDATA[George Murray Levick]]></author>
+			<date><![CDATA[7 May 1911]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Death and Danger]]></category>
+		</quote>
+		<quote number="28">
+			<imageCode>img28</imageCode>
+			<imagedescription><![CDATA[Photograph showing an Antarctic crevasse, 1911, ALB1217.29, RMG.]]></imagedescription>
+			<body><![CDATA[‘After pitching our tents we discovered a crevasse 2 ft from the door. I threw an empty oil can down it & echoed down for a horribly long time.’]]></body>
+			<author><![CDATA[Henry Bowers]]></author>
+			<date><![CDATA[15 December 1911]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Death and Danger]]></category>
+		</quote>
+		<quote number="29">
+			<imageCode>img29</imageCode>
+			<imagedescription><![CDATA[Cigarette card from ‘Polar Exploration’ series, 1916, ZBA2283.22]]></imagedescription>
+			<body><![CDATA[‘We knew that poor Oates was walking to his death … it was the act of a brave man and an English gentleman.’]]></body>
+			<author><![CDATA[Robert Falcon Scott]]></author>
+			<date><![CDATA[16 or 17 March 1912]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Death and Danger]]></category>
+		</quote>
+		<quote number="30">
+			<imageCode>img30</imageCode>
+			<imagedescription><![CDATA[Cross in memory of Scott and his colleagues on the top of Observation Hill. British Antarctic Survey / Bryan Storey
+]]></imagedescription>
+			<body><![CDATA[‘I do not think we can hope for any better things now. We shall stick it out to the end, but we are getting weaker, of course, and the end cannot be far.’]]></body>
+			<author><![CDATA[Robert Falcon Scott]]></author>
+			<date><![CDATA[29 March 1912 ]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Death and Danger]]></category>
+		</quote>
+		<quote number="31">
+			<imageCode>img31</imageCode>
+			<imagedescription><![CDATA[Illustration of explorers sheltering from strong winds, South Polar Times, 1911, PBB4147/3]]></imagedescription>
+			<body><![CDATA[‘The wind was blowing at the rate of three hundred miles an hour. That is the explorer’s enemy.’ ]]></body>
+			<author><![CDATA[Stanley Taylor]]></author>
+			<date><![CDATA[13 January 1913]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Death and Danger]]></category>
+		</quote>
+		<quote number="32">
+			<imageCode>img32</imageCode>
+			<imagedescription><![CDATA[Sea ice and icebergs lit by the midnight sun. British Antarctic Survey / Chris Gilbert]]></imagedescription>
+			<body><![CDATA[‘At midnight it was black as ink. We would get right up alongside of an iceberg before we could see them and we were surrounded by them.’ ]]></body>
+			<author><![CDATA[Stanley Taylor]]></author>
+			<date><![CDATA[20 February 1913]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Death and Danger]]></category>
+		</quote>	
+		<quote number="33">
+			<imageCode>img33</imageCode>
+			<imagedescription><![CDATA[Ice formation near the edge of the Brunt Ice Shelf, Antarctica. British Antarctic Survey / Antony Dubber]]></imagedescription>
+			<body><![CDATA[‘Anxiety is felt by all that it is time to be making a move. We seem to be in an icy maze.’]]></body>
+			<author><![CDATA[Frank Hurley]]></author>
+			<date><![CDATA[13 March 1916 ]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Death and Danger]]></category>
+		</quote>
+		
+		<!-- END Death and Danger -->
+		<!-- Dirt and hygiene -->
+		
+		<quote number="34">
+			<imageCode>img34</imageCode>
+			<imagedescription><![CDATA[Advertisement for toilet roll holder,1890s, Image Courtesy of The Advertising Archives]]></imagedescription>
+			<body><![CDATA[‘Yesterday the last remaining fodder [toilet paper] was served out, twenty-nine sheets per man.’]]></body>
+			<author><![CDATA[Charles S. Wright]]></author>
+			<date><![CDATA[27 March 1911 ]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Dirt and Hygiene]]></category>
+		</quote>
+		<quote number="35">
+			<imageCode>img35</imageCode>
+			<imagedescription><![CDATA[Photograph of Antarctic explorers, 1901-3, ALB0346.40]]></imagedescription>
+			<body><![CDATA[‘…I am in a rather unwashed state. So much so that I am dirtying the paper I am writing on. My clothing is soiled, sooty and a bit tattered. My beard and hair are rather long, and I don’t believe anyone at home would recognize me. We all look pretty villainous.’ ]]></body>
+			<author><![CDATA[Tryggve Gran]]></author>
+			<date><![CDATA[28 March 1911]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Dirt and Hygiene]]></category>
+		</quote>
+		<quote number="36">
+			<imageCode>img36</imageCode>
+			<imagedescription><![CDATA[Photograph of an Antarctic explorer next to an ice ridge, 1915, P8]]></imagedescription>
+			<body><![CDATA[‘Each member has his fixed bath day every week. He goes off after breakfast with an ice axe and a bucket ... He fills his bucket with ice and returns to the hut with it, and puts it on the stove in a large saucepan ... he has his bath, washes his clothes, and ends by feeling very clean and respectable.’]]></body>
+			<author><![CDATA[George Murray Levick]]></author>
+			<date><![CDATA[27 May 1911]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Dirt and Hygiene]]></category>
+		</quote>
+		<quote number="37">
+			<imageCode>img37</imageCode>
+			<imagedescription><![CDATA[Detail of illustration showing the interior of an Antarctic hut, South Polar Times, 1911, PBB4147/3]]></imagedescription>
+			<body><![CDATA[‘…[he] had not wiped the table after washing up the previous evening & the drainings were all frozen. I tried to wash it off with a drop of warm water, but not being very hot it froze on the table & made matters rather worse.’]]></body>
+			<author><![CDATA[Charles Harrisson]]></author>
+			<date><![CDATA[2 March 1912]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Dirt and Hygiene]]></category>
+		</quote>
+		<quote number="38">
+			<imageCode>img38</imageCode>
+			<imagedescription><![CDATA[Old tins inside Scott's Hut. British Antarctic Survey / John Shears]]></imagedescription>
+			<body><![CDATA[‘The dysentery, or acute diarrhoea, caught me once before I could get outside. When outside, in my endeavours to put things to rights, I get my hands and parts badly frostbitten as a cold blizzard was blowing.’ ]]></body>
+			<author><![CDATA[Victor Campbell]]></author>
+			<date><![CDATA[27 March 1912]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Dirt and Hygiene]]></category>
+		</quote>
+		<quote number="39">
+			<imageCode>img39</imageCode>
+			<imagedescription><![CDATA[Watercolour of a man urinating, about 1774, PAJ1986]]></imagedescription>
+			<body><![CDATA[‘This seal meat diet … has given rise to other most distressing features. Owing to the acid state of our urine, we have the greatest difficulty in holding our water when once the desire takes us. In fact, some of us have been wetting our clothes in our sleep. One of us even while he was awake before he could get out of the door – and these are the clothes we have to live in for about 8 months.’ ]]></body>
+			<author><![CDATA[Victor Campbell]]></author>
+			<date><![CDATA[27 March 1912]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Dirt and Hygiene]]></category>
+		</quote>
+		<quote number="40">
+			<imageCode>img40</imageCode>
+			<imagedescription><![CDATA[Portrait of Tryggve Gran, 1912-13, National Library of Norway]]></imagedescription>
+			<body><![CDATA[‘I have taken stock of all our clothing today; we have a good supply, except for underpants.’ ]]></body>
+			<author><![CDATA[Tryggve Gran]]></author>
+			<date><![CDATA[1 May 1912 ]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Dirt and Hygiene]]></category>
+		</quote>
+		
+			<!-- END Dirt and hygiene -->
+		<!-- Expedition Animals -->
+		
+		<quote number="41">
+			<imageCode>img41</imageCode>
+			<imagedescription><![CDATA[Photograph of a dog taken on an Antarctic expedition, 1901-3, ALB0346.32]]></imagedescription>
+			<body><![CDATA[‘Two of the dogs then laid down, and I could not get them to move … A drowsy feeling came over me and I sat down in the snow beside them, while ‘Kid’ my pet dog came and licked my face. I then remembered that people who went to sleep in the snow never woke up again, and I jumped up and pinched myself and started walking rapidly, followed by Kid.’]]></body>
+			<author><![CDATA[Clarence Hare]]></author>
+			<date><![CDATA[11 March 1902 ]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Expedition Animals]]></category>
+		</quote>
+				<quote number="42">
+			<imageCode>img42</imageCode>
+			<imagedescription><![CDATA[Sketch of a rat drawn on board a ship, 1868-69, NWT/2]]></imagedescription>
+			<body><![CDATA[‘…we were not able to get rid of the enormous number of rats who had illegally joined the ship in Buenos Aires. I think that when they chose us, they can hardly have suspected our destination, of which they could scarcely have approved…’]]></body>
+			<author><![CDATA[Jean-Baptiste Charcot]]></author>
+			<date><![CDATA[8 April 1904]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Expedition Animals]]></category>
+		</quote>
+		<quote number="43">
+			<imageCode>img43</imageCode>
+			<imagedescription><![CDATA[Cigarette card from ‘Polar Exploration’ series, 1916, ZBA2283.8]]></imagedescription>
+			<body><![CDATA[‘…found the bay clear of ice, lowered a boat and made both ponies swim ashore, the boat towing them, when ponies got ashore were well rubbed down with straw and half a bottle of whisky poured down each of their throats.’]]></body>
+			<author><![CDATA[Harry Dickason]]></author>
+			<date><![CDATA[8 February 1911  ]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Expedition Animals]]></category>
+		</quote>
+		<quote number="44">
+			<imageCode>img44</imageCode>
+			<imagedescription><![CDATA[Illustration of a sledge dog, South Polar Times, 1903, PBB4147/2]]></imagedescription>
+			<body><![CDATA[‘A most peculiar thing has happened. A month ago one of the dogs, Julik, was lost and tho’ search was made for him there was no result. Tonight while Ponting and Gran were out walking they saw a dog and on whistling him up they found it was Julik, very thin, covered with blood and smelling of seal. It is hard to say what he has been doing … yet he can hardly have enjoyed his absence’]]></body>
+			<author><![CDATA[Frank Debenham]]></author>
+			<date><![CDATA[27 August 1911 ]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Expedition Animals]]></category>
+		</quote>
+		<quote number="45">
+			<imageCode>img45</imageCode>
+			<imagedescription><![CDATA[Illustration of ponies, South Polar Times, 1902, PBB4147/1]]></imagedescription>
+			<body><![CDATA[‘Shall commence killing some of the ponies tomorrow I expect as their food will not last.’]]></body>
+			<author><![CDATA[William Lashly ]]></author>
+			<date><![CDATA[22 November 1911]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Expedition Animals]]></category>
+		</quote>
+		<quote number="46">
+			<imageCode>img46</imageCode>
+			<imagedescription><![CDATA[Banjo belonging to an Antarctic explorer, before 1913, AAB0225]]></imagedescription>
+			<body><![CDATA[‘Music and singing in the saloon and a great howling of dogs on deck.’]]></body>
+			<author><![CDATA[Charles Harrisson]]></author>
+			<date><![CDATA[27 December 1911]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Expedition Animals]]></category>
+		</quote>
+		<quote number="47">
+			<imageCode>img47</imageCode>
+			<imagedescription><![CDATA[Photograph of an Antarctic explorer with sledge dogs, 1915, P14]]></imagedescription>
+			<body><![CDATA[‘…The 4 dogs we have altho having been on short rations for some days, worked splendidly and were as ever of the greatest help.’]]></body>
+			<author><![CDATA[Victor George Hayward]]></author>
+			<date><![CDATA[17 February 1916]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Expedition Animals]]></category>
+		</quote>
+		<quote number="48">
+			<imageCode>img48</imageCode>
+			<imagedescription><![CDATA[Photograph of a cat on an icy deck, 1871, P49416]]></imagedescription>
+			<body><![CDATA[‘The ship’s cat fell overboard. Morton A.B. [a sailor] went in after it and had a cold time. … Fortunately for both of them we were stopped at the time.’]]></body>
+			<author><![CDATA[John King Davis]]></author>
+			<date><![CDATA[16 January 1930]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Expedition Animals]]></category>
+		</quote>
+		
+		<!-- END Expedition Animals -->
+		<!-- Food and Drink -->
+
+		<quote number="49">
+			<imageCode>img49</imageCode>
+			<imagedescription><![CDATA[Photograph of seals in front of an iceberg, 1911, ALB1217.44]]></imagedescription>
+			<body><![CDATA[‘I for one, and I know several others, wouldn’t much regret if we never eat seal meat again’]]></body>
+			<author><![CDATA[Charles Royds]]></author>
+			<date><![CDATA[25 August 1902]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Food and Drink]]></category>
+		</quote>
+		<quote number="50">
+			<imageCode>img50</imageCode>
+			<imagedescription><![CDATA[Leftover rations inside Discovery Hut, Ross Island. British Antarctic Survey / John Shears]]></imagedescription>
+			<body><![CDATA[‘It is really wonderful the amount of sugar one can eat in these low temperatures. I actually put 8 lumps in each cup for last night[’]s cocoa and this morning’s tea...’]]></body>
+			<author><![CDATA[Charles Royds]]></author>
+			<date><![CDATA[17 September 1902]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Food and Drink]]></category>
+		</quote>
+		<quote number="51">
+			<imageCode>img51</imageCode>
+			<imagedescription><![CDATA[Menu for a formal dinner, 1914, JOD/231/2/3]]></imagedescription>
+			<body><![CDATA[‘Nearly every night now we dream of eating and food. Very hungry always, our allowance being a very bare one. Dreams as a rule of splendid food […] sirloins of beef, caldrons full of steaming vegetables. But one spends all one’s time shouting at waiters who won’t bring one a plate of anything, or else one finds the beef is only ashes when one gets it, or a pot full of honey has been poured out on a sawdusty floor.’]]></body>
+			<author><![CDATA[Edward Wilson]]></author>
+			<date><![CDATA[5 December 1902]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Food and Drink]]></category>
+		</quote>
+<quote number="52">
+			<imageCode>img52</imageCode>
+			<imagedescription><![CDATA[Photograph of Antarctic explorers celebrating Midwinter Day, 1911, ALB1217.35]]></imagedescription>
+			<body><![CDATA[‘I had stupidly left the champagne in the outer storehouse, and it had all frozen solid.’]]></body>
+			<author><![CDATA[George Murray Levick]]></author>
+			<date><![CDATA[24 June 1911]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Food and Drink]]></category>
+		</quote>
+		<quote number="53">
+			<imageCode>img53</imageCode>
+			<imagedescription><![CDATA[Ceramic soup plate, 1891, AAA5283]]></imagedescription>
+			<body><![CDATA[‘Would give anything for a full tummy.’]]></body>
+			<author><![CDATA[Charles S. Wright]]></author>
+			<date><![CDATA[1 January 1912]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Food and Drink]]></category>
+		</quote>
+		<quote number="54">
+			<imageCode>img54</imageCode>
+			<imagedescription><![CDATA[Detail of a photograph showing an Antarctic explorer drinking, 1911, ALB1217.36]]></imagedescription>
+			<body><![CDATA[‘… this beastly rotten tea we have … The only taste one gets is of hotness and wetness’]]></body>
+			<author><![CDATA[Charles S. Wright]]></author>
+			<date><![CDATA[3 January 1912]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Food and Drink]]></category>
+		</quote>
+		<quote number="55">
+			<imageCode>img55</imageCode>
+			<imagedescription><![CDATA[Photograph of an Antarctic ice cliff, 1914, P6]]></imagedescription>
+			<body><![CDATA[‘Water very short on board – restricted to one small cup for tea – none at all for dinner. Yet a hundred feet of ice-cliff there to windward!’]]></body>
+			<author><![CDATA[Charles Harrisson]]></author>
+			<date><![CDATA[10 January 1912]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Food and Drink]]></category>
+		</quote>
+		<quote number="56">
+			<imageCode>img56</imageCode>
+			<imagedescription><![CDATA[Photograph of seals, 1915, P17]]></imagedescription>
+			<body><![CDATA[‘Seal sausages a success.’]]></body>
+			<author><![CDATA[Douglas Mawson]]></author>
+			<date><![CDATA[14 March 1912]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Food and Drink]]></category>
+		</quote>
+		<quote number="57">
+			<imageCode>img57</imageCode>
+			<imagedescription><![CDATA[Illustration of seal skulls, South Polar Times, 1902, PBB3147/1]]></imagedescription>
+			<body><![CDATA[‘I am sure seals have never been so thoroughly eaten as ours were; there was absolutely no waste. The brain was our greatest luxury, then the liver, kidney and heart, which we used to save for Sundays. The bones, after we had picked all the meat we could off them, were put on one side so that if the worst came to the worst, we could pound them up for soup.’ ]]></body>
+			<author><![CDATA[Victor Campbell]]></author>
+			<date><![CDATA[9 April 1912]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Food and Drink]]></category>
+		</quote>
+		<quote number="58">
+			<imageCode>img58</imageCode>
+			<imagedescription><![CDATA[Gentoo Penguin egg between an adult’s feet in a nest of stones and bones, at the Colony at Johnson Cove, Bird Island, South Georgia. British Antarctic Survey / Pete Bucktrout]]></imagedescription>
+			<body><![CDATA['Hurley got ahead with the manufacture of pancakes; He used six penguin eggs, flour, butter and lard, and produced five huge pancakes, which we fell on with avidity and stowed away well, lubricated with honey' ]]></body>
+			<author><![CDATA[James Wordie]]></author>
+			<date><![CDATA[29 November 1914 ]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Food and Drink]]></category>
+		</quote>
+		<quote number="59">
+			<imageCode>img59</imageCode>
+			<imagedescription><![CDATA[Pack of playing cards, about 1900, AAB0079]]></imagedescription>
+			<body><![CDATA[‘Thanks to our encyclopaedia and a pack of cards, we are able to kill time fairly well, but our anticipation of the next meal is the principal past-time of the day.’]]></body>
+			<author><![CDATA[Thomas Orde-Lees]]></author>
+			<date><![CDATA[21 January 1916]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Food and Drink]]></category>
+		</quote>
+		<quote number="60">
+			<imageCode>img60</imageCode>
+			<imagedescription><![CDATA[Photograph of an Antarctic explorer with sledge dogs, 1914, P7]]></imagedescription>
+			<body><![CDATA[ ‘The remainder of the dogs shot and skinned, and some steaks cut off the young dogs. ... Hunger brings us all to the level of other species …’ ]]></body>
+			<author><![CDATA[Frank Hurley]]></author>
+			<date><![CDATA[30 March 1916]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Food and Drink]]></category>
+		</quote>
+		<quote number="61">
+			<imageCode>img61</imageCode>
+			<imagedescription><![CDATA[Detail from watercolour showing officers toasting, PAF8407]]></imagedescription>
+			<body><![CDATA[‘…we observed the time-honoured seafaring custom of drinking the health of our sweethearts and wives, and hope our sweethearts and wives won’t feel hurt when they hear that we drank their health in methylated spirits with sugar in it, a tablespoon each.’]]></body>
+			<author><![CDATA[Thomas Orde-Lees]]></author>
+			<date><![CDATA[5 August 1916]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Food and Drink]]></category>
+		</quote>
+		
+		<!-- END Food and Drink -->
+		<!-- Extreme Cold -->
+			
+		<quote number="62">
+			<imageCode>img62</imageCode>
+			<imagedescription><![CDATA[Strawberry jam]]></imagedescription>
+			<body><![CDATA[‘Such things as jam … are really too cold to eat. It is really absurd to see the jam it is like one large mass of sticky ice paste … In fact everything in these temperatures looks funny.’]]></body>
+			<author><![CDATA[Charles Royds]]></author>
+			<date><![CDATA[17 September 1902 ]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Extreme Cold]]></category>
+		</quote>
+		<quote number="63">
+			<imageCode>img63</imageCode>
+			<imagedescription><![CDATA[Photograph of sailors smoking aboard SY Aurora, 1912. By kind permission of Irene M. Gale]]></imagedescription>
+			<body><![CDATA[‘It was a great blow to me when I found … that not only was my pipe filled with snow and frozen, but my tobacco also was largely composed of snow ... [I] sucked a dry pipe and pretended or imagined it was alight. A poor substitute, but anything to divert one[’]s mind from this awful flapping and shaking tent.’]]></body>
+			<author><![CDATA[Charles Royds]]></author>
+			<date><![CDATA[18 September 1902]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Extreme Cold]]></category>
+		</quote>
+		<quote number="64">
+			<imageCode>img64</imageCode>
+			<imagedescription><![CDATA[Dramatic ice in the Hinge Zone, Brunt Ice shelf, near Halley Research Station. British Antarctic Survey / Kirk Watson]]></imagedescription>
+			<body><![CDATA[‘…the sun was so hot that it scorched one’s skin and one had to wear the large sun hats, the cold in the shade under them was such that our moustaches and whiskers all became frosted and covered with ice, making one’s lips and nostrils sting and tingle very painfully…’ ]]></body>
+			<author><![CDATA[Edward Wilson]]></author>
+			<date><![CDATA[27 January 1903 ]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Extreme Cold]]></category>
+		</quote>
+		<quote number="65">
+			<imageCode>img65</imageCode>
+			<imagedescription><![CDATA[Boots inside Scott's hut. British Antarctic Survey / John Shears]]></imagedescription>
+			<body><![CDATA[‘...when we came to put on our boots they were frozen absolutely as stiff as iron and some of us had to bend them to the right shape with a geological hammer.’]]></body>
+			<author><![CDATA[Frank Debenham]]></author>
+			<date><![CDATA[14 February 1911 ]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Extreme Cold]]></category>
+		</quote>
+		<quote number="66">
+			<imageCode>img66</imageCode>
+			<imagedescription><![CDATA[Detail of engraving showing walruses, late 1700s, PAF6443]]></imagedescription>
+			<body><![CDATA[‘It is cold enough now for one's breath to freeze ... after being out in the air a little while we have icicles hanging to our moustaches and beards making us look very like walruses.']]></body>
+			<author><![CDATA[Frank Debenham]]></author>
+			<date><![CDATA[14 February 1911]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Extreme Cold]]></category>
+		</quote>
+		<quote number="67">
+			<imageCode>img67</imageCode>
+			<imagedescription><![CDATA[Leftover rations from Scott's Hut. British Antarctic Survey / John Shears]]></imagedescription>
+			<body><![CDATA[‘Cheese does not stand the cold very well.’]]></body>
+			<author><![CDATA[Charles S. Wright]]></author>
+			<date><![CDATA[27 March 1911 ]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Extreme Cold]]></category>
+		</quote>
+		<quote number="68">
+			<imageCode>img68</imageCode>
+			<imagedescription><![CDATA[Pancake ice forming as the sea begins to freeze. British Antarctic Survey / Chris Gilbert]]></imagedescription>
+			<body><![CDATA[‘Slowly but surely the sea is freezing over.’]]></body>
+			<author><![CDATA[Robert Falcon Scott]]></author>
+			<date><![CDATA[28 March 1911 ]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Extreme Cold]]></category>
+		</quote>
+		<quote number="69">
+			<imageCode>img69</imageCode>
+			<imagedescription><![CDATA[Illustration showing an Antarctic explorer, South Polar Times, 1902, PBB4147/1]]></imagedescription>
+			<body><![CDATA[‘It is difficult to realise how clumsy all one’s movements become when all one’s clothing is frozen stiff right down to the vest and shirt nearest the skin.’ ]]></body>
+			<author><![CDATA[Edward Wilson]]></author>
+			<date><![CDATA[4 July 1911]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Extreme Cold]]></category>
+		</quote>
+		
+		<!-- END Extreme Cold -->
+		<!-- Landscapes and Seascapes -->
+		
+		<quote number="70">
+			<imageCode>img70</imageCode>
+			<imagedescription><![CDATA[Illustration of explorer dressed as an aurora, South Polar Times, 1911, PBB4147/3]]></imagedescription>
+			<body><![CDATA[‘At 8.30 went out [on deck] with Wilson to watch the Aurora which was very bright, rising and falling in a long curtain …’]]></body>
+			<author><![CDATA[Charles Royds]]></author>
+			<date><![CDATA[9 May 1902]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Landscapes and Seascapes]]></category>
+		</quote>
+		<quote number="71">
+			<imageCode>img71</imageCode>
+			<imagedescription><![CDATA[Photograph of Antarctic explorer and dogs in front of Mount Erebus, 1911, ALB1217.22]]></imagedescription>
+			<body><![CDATA[‘The silence here simply can’t be understood unless one has actually ‘heard’ it.’]]></body>
+			<author><![CDATA[Reginald Skelton]]></author>
+			<date><![CDATA[14 June 1902]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Landscapes and Seascapes]]></category>
+		</quote>
+		<quote number="72">
+			<imageCode>img72</imageCode>
+			<imagedescription><![CDATA[Sketch of Tower Bridge, about 1895, PAF0946]]></imagedescription>
+			<body><![CDATA[‘Twelve months today I joined the ship in London. What a difference in the scenery of today and that of last year’. ]]></body>
+			<author><![CDATA[William Lashly]]></author>
+			<date><![CDATA[30 June 1902 ]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Landscapes and Seascapes]]></category>
+		</quote>		
+		<quote number="73">
+			<imageCode>img73</imageCode>
+			<imagedescription><![CDATA[Illustration of Antarctic explorers looking at the sun, <i>South Polar Times</i>, 1903, PBB4147/2]]></imagedescription>
+			<body><![CDATA[‘123 days we have been without [the sun]. Tomorrow we shall celebrate its return.’]]></body>
+			<author><![CDATA[William Lashly]]></author>
+			<date><![CDATA[23 August 1902]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Landscapes and Seascapes]]></category>
+		</quote>		
+		<quote number="74">
+			<imageCode>img74</imageCode>
+			<imagedescription><![CDATA[Illustration of kenyte, South Polar Times, 1911, PBB4147/3 ]]></imagedescription>
+			<body><![CDATA[‘…we have to ballast [the ship] as she is too light in the water. So all yesterday a gang of quarrymen was breaking out blocks of kenyte, a heavy volcanic rock … we had 25 tons of it in the empty hold, a rare quarry for the New Zealand geologists to work over when the ship returns.’ ]]></body>
+			<author><![CDATA[Edward Wilson]]></author>
+			<date><![CDATA[13 January 1911 ]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Landscapes and Seascapes]]></category>
+		</quote>		
+		<quote number="75">
+			<imageCode>img75</imageCode>
+			<imagedescription><![CDATA[Looking South from Rothera, sun setting behind the mountains reflected on clouds and sea. British Antarctic Survey / Pat Cooper]]></imagedescription>
+			<body><![CDATA[‘The land appeared to us in the most glorious hues. Glittering white, shining blue, raven black lit by sun, the land looks like a fairy tale. Pinnacle after pinnacle, peak after peak - crevassed, wild as any land on our globe, it lies, unseen and untrodden. It is a wonderful feeling to travel along it.’]]></body>
+			<author><![CDATA[Roald Amundsen]]></author>
+			<date><![CDATA[13 November 1911]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Landscapes and Seascapes]]></category>
+		</quote>		
+		<quote number="76">
+			<imageCode>img76</imageCode>
+			<imagedescription><![CDATA[Illustration comparing different mountains, <i>South Polar Times</i>, 1903, PBB4147/2]]></imagedescription>
+			<body><![CDATA[‘…the mountains [in Antarctica] surpassed anything I have ever seen – beside the least of these giants Ben Nevis would be a mere mound...’]]></body>
+			<author><![CDATA[Henry Bowers]]></author>
+			<date><![CDATA[4 December 1911]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Landscapes and Seascapes]]></category>
+		</quote>		
+		<quote number="77">
+			<imageCode>img77</imageCode>
+			<imagedescription><![CDATA[Photograph of an Antarctic sledge party in soft snow, 1901-3, ALB0346.18]]></imagedescription>
+			<body><![CDATA[‘The snow was deep and so sticky that it seemed like treacle.’ ]]></body>
+			<author><![CDATA[Tryggve Gran]]></author>
+			<date><![CDATA[9 December 1911]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Landscapes and Seascapes]]></category>
+		</quote>		
+		<quote number="78">
+			<imageCode>img78</imageCode>
+			<imagedescription><![CDATA[Photograph of Antarctic explorers at camp, 1915, P15]]></imagedescription>
+			<body><![CDATA[‘…for a short time we shall litter the land with our tins, scrap timber, refuse, and impedimenta; for a short time we shall be travelling over the great plateau […] then the ship will return for us and we shall leave the place to its eternal silence and loneliness, a silence that may never again be broken by a human voice.’]]></body>
+			<author><![CDATA[B.E.S. Ninnis]]></author>
+			<date><![CDATA[30 January 1912]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Landscapes and Seascapes]]></category>
+		</quote>		
+		<quote number="79">
+			<imageCode>img79</imageCode>
+			<imagedescription><![CDATA[Photograph of ice cliff with Mount Erebus in background, 1911, ALB1217.25]]></imagedescription>
+			<body><![CDATA[‘It is a wonderful sight, this world of ice and sea. On a fine day it looks beautiful, and little shows what a terrible vast solitude it is, reaching back to the other side of the world, and constantly swept by violent winds and drift.’]]></body>
+			<author><![CDATA[John King Davis]]></author>
+			<date><![CDATA[22 January 1913 ]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Landscapes and Seascapes]]></category>
+		</quote>		
+		<quote number="80">
+			<imageCode>img80</imageCode>
+			<imagedescription><![CDATA[Photograph of an explorer in front of an Antarctic iceberg grotto, 1911, ALB1217.11]]></imagedescription>
+			<body><![CDATA[‘Well, I cannot explain all the shapes and sizes of icebergs. It would take a book for them alone.’]]></body>
+			<author><![CDATA[Stanley Taylor]]></author>
+			<date><![CDATA[25 February 1913]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Landscapes and Seascapes]]></category>
+		</quote>		
+		<quote number="81">
+			<imageCode>img81</imageCode>
+			<imagedescription><![CDATA[Photograph of an Antarctic iceberg, 1911, ALB1217.23]]></imagedescription>
+			<body><![CDATA[‘It was just like a big marble city collapsing. [The iceberg] shook the water so much that it regular rocked the boat. It is an indescribable sight worth pounds to see and it just caught our [camera] man at his worst. Just taken a lot of photos and only twenty feet of film. It was rotten luck for him. One of [the] greatest pictures ever screened it would have been.’]]></body>
+			<author><![CDATA[H.V. Goddard]]></author>
+			<date><![CDATA[30 January 1914]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Landscapes and Seascapes]]></category>
+		</quote>		
+		<quote number="82">
+			<imageCode>img82</imageCode>
+			<imagedescription><![CDATA[Photograph of Antarctic pack ice, 1910, ALB1217.4]]></imagedescription>
+			<body><![CDATA[‘Eerie sounds … are carried on the crispy wintry atmosphere, a faint booming, groaning, and creaking [of ice], a sound that to us, the greater the distance, the more the enchantment’]]></body>
+			<author><![CDATA[Frank Hurley]]></author>
+			<date><![CDATA[27 June 1915]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Landscapes and Seascapes]]></category>
+		</quote>		
+		
+		<!-- END Landscapes and Seascapes-->
+		<!-- Misery and Boredom -->
+		
+		<quote number="83">
+			<imageCode>img83</imageCode>
+			<imagedescription><![CDATA[Photograph of Antarctic explorers taken from a ship, 1901-3, ALB0346.42]]></imagedescription>
+			<body><![CDATA[‘Days of gloom and anxious watching for the ship. Day after day the same report … open water to the horizon to the north, but no ship. She should be here by now … What if some accident has befallen her and we are doomed to remain here yet another year?’]]></body>
+			<author><![CDATA[Louis Charles Bernacchi]]></author>
+			<date><![CDATA[2-7 January 1900]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Misery and Boredom]]></category>
+		</quote>
+		<quote number="84">
+			<imageCode>img84</imageCode>
+			<imagedescription><![CDATA[A view across southern Marguerite Bay to the midnight sun seen low over Alexander island from the Antarctic Peninsula. British Antarctic Survey / Pete Bucktrout]]></imagedescription>
+			<body><![CDATA[‘…say what you like, the absence of the sun has, and must have, a depressing effect on the very best of men.’]]></body>
+			<author><![CDATA[Charles Royds]]></author>
+			<date><![CDATA[18 June 1902 ]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Misery and Boredom]]></category>
+		</quote>		
+		<quote number="85">
+			<imageCode>img85</imageCode>
+			<imagedescription><![CDATA[Sketches in an Antarctic explorer’s diary, 1915-16, JOD/231/1]]></imagedescription>
+			<body><![CDATA[‘Life has been uneventful since my last entry.’]]></body>
+			<author><![CDATA[George Murray Levick]]></author>
+			<date><![CDATA[24 May 1911]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Misery and Boredom]]></category>
+		</quote>	
+		<quote number="86">
+			<imageCode>img86</imageCode>
+			<imagedescription><![CDATA[Cigarette card from ‘Polar Exploration’ series, 1916, ZBA2283.15]]></imagedescription>
+			<body><![CDATA[‘If I emerge unscathed from this journey, I must see that I get out of polar exploration. It’s hardly worth the trouble.’ ]]></body>
+			<author><![CDATA[Olav Bjaaland]]></author>
+			<date><![CDATA[15 October 1911]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Misery and Boredom]]></category>
+		</quote>
+		<quote number="87">
+			<imageCode>img87</imageCode>
+			<imagedescription><![CDATA[Cigarette card from ‘Polar Exploration’ series, 1916, ZBA2283.12]]></imagedescription>
+			<body><![CDATA[‘…I for one have come to appreciate the gramophone as I never expected to.’]]></body>
+			<author><![CDATA[Charles Harrisson]]></author>
+			<date><![CDATA[7 July 1912]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Misery and Boredom]]></category>
+		</quote>		
+		<quote number="88">
+			<imageCode>img88</imageCode>
+			<imagedescription><![CDATA[Photograph of an Antarctic explorer on board a ship after a blizzard, 1901-3, ALB0346.22]]></imagedescription>
+			<body><![CDATA[‘I am just about getting fed up with this place.’]]></body>
+			<author><![CDATA[Stanley Taylor]]></author>
+			<date><![CDATA[4 February 1913]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Misery and Boredom]]></category>
+		</quote>	
+		<quote number="89">
+			<imageCode>img89</imageCode>
+			<imagedescription><![CDATA[Photograph of Antarctic explorers taken from a balloon, 1901-3, ALB0346.14]]></imagedescription>
+			<body><![CDATA[‘Little is known of the area in which we are now. No previous explorers have been within 200 miles of this forsaken spot. I don’t blame them.’]]></body>
+			<author><![CDATA[Thomas Orde-Lees]]></author>
+			<date><![CDATA[1-2 December 1915]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Misery and Boredom]]></category>
+		</quote>
+		<quote number="90">
+			<imageCode>img90</imageCode>
+			<imagedescription><![CDATA[Photograph of Antarctic explorers in a tent, 1911, ALB1217.16]]></imagedescription>
+			<body><![CDATA[‘Killing time in one’s tent all day is one of our principal problems.’]]></body>
+			<author><![CDATA[Thomas Orde-Lees]]></author>
+			<date><![CDATA[5 February 1916 ]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Misery and Boredom]]></category>
+		</quote>		
+		<quote number="91">
+			<imageCode>img91</imageCode>
+			<imagedescription><![CDATA[Photograph of scientists on an Antarctic expedition, 1915, P14]]></imagedescription>
+			<body><![CDATA[‘The most God-forsaken country this is. If I ever get clear of it, I never want to see it again. A man might just as well bury himself in a snowdrift at once, as attempt to do scientific work down here.’]]></body>
+			<author><![CDATA[Charles S. Wright]]></author>
+			<date><![CDATA[12 July 1912]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Misery and Boredom]]></category>
+		</quote>	
+		<quote number="92">
+			<imageCode>img92</imageCode>
+			<imagedescription><![CDATA[Detail of a satirical print showing men drinking, 1827, ZBA4506]]></imagedescription>
+			<body><![CDATA[‘Anything for a drink!’]]></body>
+			<author><![CDATA[James Wordie]]></author>
+			<date><![CDATA[25 July 1916]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Misery and Boredom]]></category>
+		</quote>	
+		
+		<!-- END Misery and Boredom-->
+		<!-- Joy -->
+		
+		<quote number="93">
+			<imageCode>img93</imageCode>
+			<imagedescription><![CDATA[Photograph of Antarctic explorers walking across ice, 1911, ALB1217.17]]></imagedescription>
+			<body><![CDATA[‘We are all adventurers here, I suppose, and wild doings in wild countries appeal to us as nothing else could do. It is good to know that there remain wild corners of this dreadfully civilised world.’]]></body>
+			<author><![CDATA[Robert Falcon Scott]]></author>
+			<date><![CDATA[29 August 1911]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Joy]]></category>
+		</quote>	
+		<quote number="94">
+			<imageCode>img94</imageCode>
+			<imagedescription><![CDATA[Photograph of Dulwich College, 1891. With kind permission of the Governors of Dulwich College]]></imagedescription>
+			<body><![CDATA[‘Dreamt last night that I was back at school…It was a hideous nightmare, and when I woke to find myself in the Antarctic, my relief knew no bounds.’]]></body>
+			<author><![CDATA[B.E.S. Ninnis]]></author>
+			<date><![CDATA[28 August 1912]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Joy]]></category>
+		</quote>
+		<quote number="95">
+			<imageCode>img95</imageCode>
+			<imagedescription><![CDATA[Cigarette card from ‘Polar Exploration’ series, 1916, ZBA2283.11]]></imagedescription>
+			<body><![CDATA['In the evening before supper we had a rare game of football on the snow. It was pure farce of course: in places the snow was very soft, and a man racing after the ball would often go head over heels. We went in to supper quite puffed, but very merry.']]></body>
+			<author><![CDATA[James Wordie]]></author>
+			<date><![CDATA[20 December 1914 ]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Joy]]></category>
+		</quote>
+		<quote number="96">
+			<imageCode>img96</imageCode>
+			<imagedescription><![CDATA[Euston Station, platform 6, 1909, Image No. 10308735 © National Railway Museum / Science & Society Picture Library -- All rights reserved]]></imagedescription>
+			<body><![CDATA[‘Really, this sort of life has its attractions. … No worries, no trains, no letters to answer, no collars to wear — but I wonder which of us would not jump at the chance to change it all tomorrow!’ ]]></body>
+			<author><![CDATA[Alexander Macklin]]></author>
+			<date><![CDATA[1915]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Joy]]></category>
+		</quote>
+		<quote number="97">
+			<imageCode>img97</imageCode>
+			<imagedescription><![CDATA[Coastal scenery travelling through the Gerlache Strait on the Antarctic Peninsula. British Antarctic Survey / Chris Gilbert]]></imagedescription>
+			<body><![CDATA[‘The air is so exhilarating, that one can scarce refrain from bursting into song and singing to thy charms, oh wondrous land!’]]></body>
+			<author><![CDATA[Frank Hurley]]></author>
+			<date><![CDATA[22 August 1915 ]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Joy]]></category>
+		</quote>
+		<quote number="98">
+			<imageCode>img98</imageCode>
+			<imagedescription><![CDATA[Photograph of the Ross Sea taken on board a ship, 1911, ALB1217.7]]></imagedescription>
+			<body><![CDATA[‘Relief ship arrived this morn[ing] … I can't describe our feelings they were too deep. … I am not ashamed to say that tears of sheer joy forced their way into my eyes … To think that our long wait was over at last and that relief had come - no more blizzards and frost seared feet and hands – no more reeking blubber fumes – no more butchery of innocent seals – no more sledging – it was too good to be true.’]]></body>
+			<author><![CDATA[Keith Jack]]></author>
+			<date><![CDATA[10 January 1917]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Joy]]></category>
+		</quote>
+		
+		<!-- END Joy -->
+		<!-- Sledging and Camping -->
+		
+		<quote number="99">
+			<imageCode>img99</imageCode>
+			<imagedescription><![CDATA[Photograph of Antarctic explorers with a sledge, 1901-3, ALB0346.19]]></imagedescription>
+			<body><![CDATA[‘Pulling [a sledge] in the dark it is almost impossible to know whether the pulling is heavy because one is on a bad flat surface, or because one is pulling up hill.’ ]]></body>
+			<author><![CDATA[Edward Wilson]]></author>
+			<date><![CDATA[9 July 1911]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Sledging and Camping]]></category>
+		</quote>
+		<quote number="100">
+			<imageCode>img100</imageCode>
+			<imagedescription><![CDATA[Illustration of Antarctic explorers pulling sledges, <i>South Polar Times</i>, 1911, PBB4147/3]]></imagedescription>
+			<body><![CDATA[‘We are each allowed 10 lbs personal gear – & it was great seeing each man bring his bag up & his face lengthen as the hand indicated the lbs! ... At each overweight bag there would be a chorus of “What have you in that bag!”’]]></body>
+			<author><![CDATA[Charles Harrisson]]></author>
+			<date><![CDATA[10 March 1912]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Sledging and Camping]]></category>
+		</quote>
+		<quote number="101">
+			<imageCode>img101</imageCode>
+			<imagedescription><![CDATA[A selection of onions]]></imagedescription>
+			<body><![CDATA[‘For the summer sledge journey we’re trying something new in the way of provisions – an onion a day for each member. … At the moment the whole hut smells of onions.’ ]]></body>
+			<author><![CDATA[Tryggve Gran]]></author>
+			<date><![CDATA[21 July 1912 ]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Sledging and Camping]]></category>
+		</quote>
+		<quote number="102">
+			<imageCode>img102</imageCode>
+			<imagedescription><![CDATA[Sleeping bag used by an Antarctic explorer, about 1910, AAA4213]]></imagedescription>
+			<body><![CDATA[‘One of the most uncomfortable nights I have passed in a sleeping bag. Warm enough, but oh so cramped ... bag not intended for 4 men.’]]></body>
+			<author><![CDATA[Charles Harrisson]]></author>
+			<date><![CDATA[16 August 1912  ]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Sledging and Camping]]></category>
+		</quote>
+		<quote number="103">
+			<imageCode>img103</imageCode>
+			<imagedescription><![CDATA[Illustration of explorers in a tent, South Polar Times, 1902, PBB4147/1]]></imagedescription>
+			<body><![CDATA[‘Tent walls are very thin, thinner than paper, and they have ears on both sides, and many are the scrappy bits one hears which one ‘didn’t ought’ to hear.’]]></body>
+			<author><![CDATA[Thomas Orde-Lees]]></author>
+			<date><![CDATA[20 November 1915 ]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Sledging and Camping]]></category>
+		</quote>
+		<quote number="104">
+			<imageCode>img104</imageCode>
+			<imagedescription><![CDATA[Cigarette card from ‘Polar Exploration’ series, 1916, ZBA2283.10]]></imagedescription>
+			<body><![CDATA[‘…everything gets wet in the tents from the snow brought in on one’s boots etc … The unfortunate member whose turn it is to sleep in the doorway – the worst position in the tent as the continuous traffic in wet weather makes this position very damp – generally has the wettest sleeping bag.’]]></body>
+			<author><![CDATA[Thomas Orde-Lees]]></author>
+			<date><![CDATA[6 February 1916]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Sledging and Camping]]></category>
+		</quote>
+		
+		<!-- END Sledging and Camping -->
+		<!-- Homesickness -->
+		
+			<quote number="105">
+			<imageCode>img105</imageCode>
+			<imagedescription><![CDATA[Letter sent to an Antarctic explorer from his brother, 1915, JOD/231/2/4]]></imagedescription>
+			<body><![CDATA[‘With what eagerness and trepidation we received our letters, scarcely daring to open them for fear of bad news … It is impossible to conceive the pleasure derived from those letters. After being so long cut off from civilisation – it is like hearing voices from another world.’]]></body>
+			<author><![CDATA[Louis Charles Bernacchi]]></author>
+			<date><![CDATA[28 January 1900]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Homesickness]]></category>
+		</quote>
+		<quote number="106">
+			<imageCode>img106</imageCode>
+			<imagedescription><![CDATA[Royal Mail ensign, early 1900s, AAA0762]]></imagedescription>
+			<body><![CDATA[‘My share of the post is unspeakable. I had expected at least a couple of dozen letters and I received one, and that a bill! I had looked forward to news for half a year.’ ]]></body>
+			<author><![CDATA[Tryggve Gran]]></author>
+			<date><![CDATA[15 February 1912 ]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Homesickness]]></category>	
+		</quote>
+		<quote number="107">
+			<imageCode>img107</imageCode>
+			<imagedescription><![CDATA[Watercolour of rural scenery, about 1810, PAF2393]]></imagedescription>
+			<body><![CDATA[‘At this very moment … the family will be in church. If the weather is at all fine, the country must be looking lovely now, with the hedges and trees just breaking into bud and the primroses coming on.’]]></body>
+			<author><![CDATA[B.E.S. Ninnis]]></author>
+			<date><![CDATA[7 April 1912]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Homesickness]]></category>
+		</quote>
+		<quote number="108">
+			<imageCode>img108</imageCode>
+			<imagedescription><![CDATA[Calculations, doodles and sketch in an Antarctic explorer’s diary, 1915-16, JOD/231/1]]></imagedescription>
+			<body><![CDATA[‘Enjoyed the walk – but how gladly would I have given it, with all its charm of vast solitudes & weird beauty, for an hour with the wife & children…’]]></body>
+			<author><![CDATA[Charles Harrisson]]></author>
+			<date><![CDATA[18 August 1912]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Homesickness]]></category>
+		</quote>
+		<quote number="109">
+			<imageCode>img109</imageCode>
+			<imagedescription><![CDATA[Sketch of a woman nursing a baby, PAE2454]]></imagedescription>
+			<body><![CDATA[‘Some of the others have commented on the way one forgets things down here. I was a week before I could recall my baby girl’s second name, & Andy has been trying for months to recollect the name of one of his friends & cannot!’]]></body>
+			<author><![CDATA[Charles Harrisson]]></author>
+			<date><![CDATA[8 February 1913]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Homesickness]]></category>
+		</quote>
+		<quote number="110">
+			<imageCode>img110</imageCode>
+			<imagedescription><![CDATA[FA Cup, 1896. Courtesy of David Gold & the National Football Museum]]></imagedescription>
+			<body><![CDATA[‘…[the explorers] have had no news for two years and ask such things as what government are in, how did such and such person do, who won the cup etc’]]></body>
+			<author><![CDATA[H.V. Goddard]]></author>
+			<date><![CDATA[11 December 1913]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Homesickness]]></category>
+		</quote>
+		<quote number="111">
+			<imageCode>img111</imageCode>
+			<imagedescription><![CDATA[Photograph of H.V. Goddard, Collection: Tasmanian Museum & Art Gallery, Q2002.31.15]]></imagedescription>
+			<body><![CDATA[‘…my birthday but no body knows or possibly no body cares. …. I never thought I should spend one out in an outlandish place like this, with no prospect of going home for months and months and months.’]]></body>
+			<author><![CDATA[H.V. Goddard]]></author>
+			<date><![CDATA[17 December 1913]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Homesickness]]></category>
+		</quote>
+		<quote number="112">
+			<imageCode>img112</imageCode>
+			<imagedescription><![CDATA[Cape Pigeons floating on the sea, 1914, P5]]></imagedescription>
+			<body><![CDATA[‘Many sweet memories crowd on me as I lay in my bag, meditating the last day of the year. Home, faces, places, and our present position that one cannot altogether regard as sweet. Drifting about on the ice floe, 189 miles from the nearest known land.’ ]]></body>
+			<author><![CDATA[Frank Hurley]]></author>
+			<date><![CDATA[31 December 1915]]></date>
+			<objectName><![CDATA[]]></objectName>
+			<pageNumber><![CDATA[]]></pageNumber>
+			<accessionNumber><![CDATA[]]></accessionNumber>
+			<category><![CDATA[Homesickness]]></category>
+		</quote>
+		
+	</quotes>
+	
+	<images>
+
+		<!--	'Layout' determines overall 'slide' layout template in line with image orientation:
+			0: portrait (default)
+			1: landscape
+		-->
+		
+		<!-- EXAMPLE
+		<image number="0">
+			<imageGroupID>ZZ</imageGroupID>
+			<thumbFileName><![CDATA[img000T.jpg]]></thumbFileName>
+			<largeFileName><![CDATA[img000]]></largeFileName>
+			<approved>0</approved>
+		</image>
+		-->
+		
+		<!-- 1 >> 10 -->
+		<image number="1">
+			<imageCode>img1</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[antarctic-wildlife/1.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>1</layout>
+		</image>
+		<image number="2">
+			<imageCode>img2</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[antarctic-wildlife/2.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="3">
+			<imageCode>img3</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[antarctic-wildlife/3.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>1</layout>
+		</image>
+		<image number="4">
+			<imageCode>img4</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[antarctic-wildlife/4.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>1</layout>
+		</image>
+		<image number="5">
+			<imageCode>img5</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[antarctic-wildlife/5.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="6">
+			<imageCode>img6</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[antarctic-wildlife/6.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>1</layout>
+		</image>
+		<image number="7">
+			<imageCode>img7</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[antarctic-wildlife/7.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="8">
+			<imageCode>img8</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[antarctic-wildlife/8.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>1</layout>
+		</image>
+		<image number="9">
+			<imageCode>img9</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[antarctic-wildlife/9.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="10">
+			<imageCode>img10</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[antarctic-wildlife/10.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>1</layout>
+		</image>
+		
+		<!-- 11 >> 20 -->
+		<image number="11">
+			<imageCode>img11</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[antarctic-wildlife/11.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="12">
+			<imageCode>img12</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[antarctic-wildlife/12.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>1</layout>
+		</image>
+		<image number="13">
+			<imageCode>img13</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[arguments-and-frustration/1.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>1</layout>
+		</image>
+		<image number="14">
+			<imageCode>img14</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[arguments-and-frustration/2.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>1</layout>
+		</image>
+		<image number="15">
+			<imageCode>img15</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[arguments-and-frustration/3.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>1</layout>
+		</image>
+		<image number="16">
+			<imageCode>img16</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[arguments-and-frustration/4.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>2</layout>
+		</image>
+		<image number="17">
+			<imageCode>img17</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[arguments-and-frustration/5.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="18">
+			<imageCode>img18</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[arguments-and-frustration/6.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>1</layout>
+		</image>
+		<image number="19">
+			<imageCode>img19</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[arguments-and-frustration/7.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="20">
+			<imageCode>img20</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[arguments-and-frustration/8.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>1</layout>
+		</image>
+		
+		<!-- 21 >> 30 -->
+		<image number="21">
+			<imageCode>img21</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[death-and-danger/1.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>1</layout>
+		</image>
+		<image number="22">
+			<imageCode>img22</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[death-and-danger/2.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>1</layout>
+		</image>
+		<image number="23">
+			<imageCode>img23</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[death-and-danger/3.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>1</layout>
+		</image>
+		<image number="24">
+			<imageCode>img24</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[death-and-danger/4.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="25">
+			<imageCode>img25</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[death-and-danger/5.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>1</layout>
+		</image>
+		<image number="26">
+			<imageCode>img26</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[death-and-danger/6.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>1</layout>
+		</image>
+		<image number="27">
+			<imageCode>img27</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[death-and-danger/7.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>4</layout>
+		</image>
+			<image number="28">
+			<imageCode>img28</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[death-and-danger/8.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>1</layout>
+		</image>
+		<image number="29">
+			<imageCode>img29</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[death-and-danger/9.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>2</layout>
+		</image>
+		<image number="30">
+			<imageCode>img30</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[death-and-danger/10.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>1</layout>
+		</image>
+		
+		<!-- 31 >> 40 -->
+		<image number="31">
+			<imageCode>img31</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[death-and-danger/11.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>1</layout>
+		</image>
+		<image number="32">
+			<imageCode>img32</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[death-and-danger/12.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>1</layout>
+		</image>
+		<image number="33">
+			<imageCode>img33</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[death-and-danger/13.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>1</layout>
+		</image>
+		<image number="34">
+			<imageCode>img34</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[dirt-and-hygiene/1.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="35">
+			<imageCode>img35</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[dirt-and-hygiene/2.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>1</layout>
+		</image>
+		<image number="36">
+			<imageCode>img36</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[dirt-and-hygiene/3.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>1</layout>
+		</image>
+		<image number="37">
+			<imageCode>img37</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[dirt-and-hygiene/4.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="38">
+			<imageCode>img38</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[dirt-and-hygiene/5.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="39">
+			<imageCode>img39</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[dirt-and-hygiene/6.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>2</layout>
+		</image>
+		<image number="40">
+			<imageCode>img40</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[dirt-and-hygiene/7.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		
+		<!-- 41 >> 50 -->
+		<image number="41">
+			<imageCode>img41</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[expedition-animals/1.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="42">
+			<imageCode>img42</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[expedition-animals/2.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>1</layout>
+		</image>
+		<image number="43">
+			<imageCode>img43</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[expedition-animals/3.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>3</layout>
+		</image>
+		<image number="44">
+			<imageCode>img44</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[expedition-animals/4.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="45">
+			<imageCode>img45</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[expedition-animals/5.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="46">
+			<imageCode>img46</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[expedition-animals/6.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="47">
+			<imageCode>img47</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[expedition-animals/7.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>1</layout>
+		</image>
+		<image number="48">
+			<imageCode>img48</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[expedition-animals/8.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="49">
+			<imageCode>img49</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[food-and-drink/1.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>1</layout>
+		</image>
+			<image number="50">
+			<imageCode>img50</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[food-and-drink/2.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>1</layout>
+		</image>
+		<image number="51">
+			<imageCode>img51</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[food-and-drink/3.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="52">
+			<imageCode>img52</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[food-and-drink/4.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>1</layout>
+		</image>
+		<image number="53">
+			<imageCode>img53</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[food-and-drink/5.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>4</layout>
+		</image>
+		<image number="54">
+			<imageCode>img54</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[food-and-drink/6.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="55">
+			<imageCode>img55</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[food-and-drink/7.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="56">
+			<imageCode>img56</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[food-and-drink/8.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>1</layout>
+		</image>
+		<image number="57">
+			<imageCode>img57</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[food-and-drink/9.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>1</layout>
+		</image>
+		<image number="58">
+			<imageCode>img58</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[food-and-drink/10.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>1</layout>
+		</image>
+		<image number="59">
+			<imageCode>img59</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[food-and-drink/11.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>1</layout>
+		</image>
+		<image number="60">
+			<imageCode>img60</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[food-and-drink/12.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>1</layout>
+		</image>
+		<image number="61">
+			<imageCode>img61</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[food-and-drink/13.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>1</layout>
+		</image>
+		<image number="62">
+			<imageCode>img62</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[extreme-cold/1.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>1</layout>
+		</image>
+		<image number="63">
+			<imageCode>img63</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[extreme-cold/2.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>1</layout>
+		</image>
+		<image number="64">
+			<imageCode>img64</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[extreme-cold/3.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>4</layout>
+		</image>
+		<image number="65">
+			<imageCode>img65</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[extreme-cold/4.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>4</layout>
+		</image>
+		<image number="66">
+			<imageCode>img66</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[extreme-cold/5.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>1</layout>
+		</image>
+		<image number="67">
+			<imageCode>img67</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[extreme-cold/6.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>4</layout>
+		</image>
+		<image number="68">
+			<imageCode>img68</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[extreme-cold/7.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>1</layout>
+		</image>
+		<image number="69">
+			<imageCode>img69</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[extreme-cold/8.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="70">
+			<imageCode>img70</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[landscapes-and-seascapes/1.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="71">
+			<imageCode>img71</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[landscapes-and-seascapes/2.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>1</layout>
+		</image>
+		<image number="72">
+			<imageCode>img72</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[landscapes-and-seascapes/3.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="73">
+			<imageCode>img73</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[landscapes-and-seascapes/4.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>1</layout>
+		</image>
+		<image number="74">
+			<imageCode>img74</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[landscapes-and-seascapes/5.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="75">
+			<imageCode>img75</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[landscapes-and-seascapes/6.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>1</layout>
+		</image>
+		<image number="76">
+			<imageCode>img76</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[landscapes-and-seascapes/7.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>3</layout>
+		</image>
+		<image number="77">
+			<imageCode>img77</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[landscapes-and-seascapes/8.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>1</layout>
+		</image>
+		<image number="78">
+			<imageCode>img78</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[landscapes-and-seascapes/9.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>4</layout>
+		</image>
+		<image number="79">
+			<imageCode>img79</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[landscapes-and-seascapes/10.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>1</layout>
+		</image>
+		<image number="80">
+			<imageCode>img80</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[landscapes-and-seascapes/11.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="81">
+			<imageCode>img81</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[landscapes-and-seascapes/12.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>1</layout>
+		</image>
+		<image number="82">
+			<imageCode>img82</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[landscapes-and-seascapes/13.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>1</layout>
+		</image>
+		<image number="83">
+			<imageCode>img83</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[misery-and-boredom/1.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>4</layout>
+		</image>
+		<image number="84">
+			<imageCode>img84</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[misery-and-boredom/2.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>1</layout>
+		</image>
+		<image number="85">
+			<imageCode>img85</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[misery-and-boredom/3.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>4</layout>
+		</image>
+		<image number="86">
+			<imageCode>img86</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[misery-and-boredom/4.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>3</layout>
+		</image>
+		<image number="87">
+			<imageCode>img87</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[misery-and-boredom/5.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>3</layout>
+		</image>
+		<image number="88">
+			<imageCode>img88</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[misery-and-boredom/6.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="89">
+			<imageCode>img89</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[misery-and-boredom/7.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="90">
+			<imageCode>img90</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[misery-and-boredom/8.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>1</layout>
+		</image>
+	
+		<image number="91">
+			<imageCode>img91</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[misery-and-boredom/9.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>1</layout>
+		</image>
+		<image number="92">
+			<imageCode>img92</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[misery-and-boredom/10.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="93">
+			<imageCode>img93</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[joy/1.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>1</layout>
+		</image>
+		<image number="94">
+			<imageCode>img94</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[joy/2.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>1</layout>
+		</image>
+		<image number="95">
+			<imageCode>img95</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[joy/3.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>3</layout>
+		</image>
+		<image number="96">
+			<imageCode>img96</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[joy/4.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>4</layout>
+		</image>
+		<image number="97">
+			<imageCode>img97</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[joy/5.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>1</layout>
+		</image>
+		<image number="98">
+			<imageCode>img98</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[joy/6.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>4</layout>
+		</image>
+		<image number="99">
+			<imageCode>img99</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[sledging-and-camping/1.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>1</layout>
+		</image>
+		<image number="100">
+			<imageCode>img100</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[sledging-and-camping/2.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="101">
+			<imageCode>img101</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[sledging-and-camping/3.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>4</layout>
+		</image>
+		<image number="102">
+			<imageCode>img102</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[sledging-and-camping/4.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>1</layout>
+		</image>
+		<image number="103">
+			<imageCode>img103</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[sledging-and-camping/5.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>4</layout>
+		</image>
+		<image number="104">
+			<imageCode>img104</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[sledging-and-camping/6.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>3</layout>
+		</image>
+		<image number="105">
+			<imageCode>img105</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[homesickness/1.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="106">
+			<imageCode>img106</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[homesickness/2.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>3</layout>
+		</image>
+		<image number="107">
+			<imageCode>img107</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[homesickness/3.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>4</layout>
+		</image>
+		<image number="108">
+			<imageCode>img108</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[homesickness/4.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>4</layout>
+		</image>
+		<image number="109">
+			<imageCode>img109</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[homesickness/5.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="110">
+			<imageCode>img110</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[homesickness/6.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="111">
+			<imageCode>img111</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[homesickness/7.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="112">
+			<imageCode>img112</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[homesickness/8.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>4</layout>
+		</image>
+		
+		<!-- END quote images -->
+		<!-- Glossary images -->
+		
+		<image number="113">
+			<imageCode>img113</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[_glossary/aurorae.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>1</layout>
+		</image>
+		<image number="114">
+			<imageCode>img114</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[_glossary/ballast.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="115">
+			<imageCode>img115</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[_glossary/ben-nevis.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="116">
+			<imageCode>img116</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[_glossary/chloroform.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="117">
+			<imageCode>img117</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[_glossary/close-season.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="118">
+			<imageCode>img118</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[_glossary/ice-floe.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="119">
+			<imageCode>img119</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[_glossary/geological-hammer.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="120">
+			<imageCode>img120</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[_glossary/impedimenta.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="121">
+			<imageCode>img121</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[_glossary/methylated-spirits.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>1</layout>
+		</image>
+		<image number="122">
+			<imageCode>img122</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[_glossary/primroses.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>1</layout>
+		</image>
+		<image number="123">
+			<imageCode>img123</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[_glossary/trepidation.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>1</layout>
+		</image>
+		<image number="124">
+			<imageCode>img124</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[_glossary/windward.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="125">
+			<imageCode>img125</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[dirt-and-hygiene2.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="126">
+			<imageCode>img126</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[Environment3.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="127">
+			<imageCode>img127</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[Environment4.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="128">
+			<imageCode>img128</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[Environment5.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="129">
+			<imageCode>img129</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[expedition-animals1.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="130">
+			<imageCode>img130</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[expedition-animals2.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="131">
+			<imageCode>img131</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[death-and-danger2.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>1</layout>
+		</image>
+		<image number="132">
+			<imageCode>img122</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[death-and-danger3.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>1</layout>
+		</image>
+		<image number="133">
+			<imageCode>img133</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[death-and-danger4.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>1</layout>
+		</image>
+		<image number="134">
+			<imageCode>img134</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[dirt-and-hygiene1.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="135">
+			<imageCode>img135</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[dirt-and-hygiene2.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="136">
+			<imageCode>img136</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[Environment3.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="137">
+			<imageCode>img137</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[Environment4.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="138">
+			<imageCode>img138</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[Environment5.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="139">
+			<imageCode>img139</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[expedition-animals1.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="140">
+			<imageCode>img140</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[expedition-animals2.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		
+		
+		
+		
+		<!-- AUTHORS -->
+		
+		
+		
+		<image number="141">
+			<imageCode>img141</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[_authors/amundsen.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="142">
+			<imageCode>img142</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[_authors/bernacchi.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="143">
+			<imageCode>img143</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[_authors/bjaaland.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="144">
+			<imageCode>img144</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[_authors/bowers.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="145">
+			<imageCode>img145</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[_authors/campbell.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="146">
+			<imageCode>img146</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[_authors/charcot.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="147">
+			<imageCode>img147</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[_authors/davis.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="148">
+			<imageCode>img148</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[_authors/debenham.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="149">
+			<imageCode>img149</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[_authors/dickason.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="150">
+			<imageCode>img150</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[_authors/gran.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="151">
+			<imageCode>img151</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[_authors/goddard.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="152">
+			<imageCode>img152</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[_authors/harrisson.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="153">
+			<imageCode>img153</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[_authors/hare.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="154">
+			<imageCode>img154</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[_authors/hayward.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="155">
+			<imageCode>img155</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[_authors/hurley.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="156">
+			<imageCode>img156</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[_authors/jack.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="157">
+			<imageCode>img157</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[_authors/lashly.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="158">
+			<imageCode>img158</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[_authors/levick.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+	
+		<image number="159">
+			<imageCode>img159</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[_authors/mackintosh.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="160">
+			<imageCode>img160</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[_authors/macklin.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="161">
+			<imageCode>img161</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[_authors/mawson.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="162">
+			<imageCode>img162</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[_authors/ninnis.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="163">
+			<imageCode>img163</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[_authors/skelton.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="164">
+			<imageCode>img164</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[_authors/royds.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="165">
+			<imageCode>img165</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[_authors/scott.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="166">
+			<imageCode>img166</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[_authors/wilson.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="167">
+			<imageCode>img167</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[_authors/wordie.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="168">
+			<imageCode>img168</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[_authors/wright.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="169">
+			<imageCode>img169</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[_authors/taylor.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="170">
+			<imageCode>img170</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[_authors/orde-lees.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		
+	
+
+		
+		
+		
+		
+		
+		<image number="171">
+			<imageCode>img171</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[_authors/expedition-animals2.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="172">
+			<imageCode>img172</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[_authors/expedition-animals2.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="173">
+			<imageCode>img173</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[_authors/expedition-animals2.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="174">
+			<imageCode>img174</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[_authors/expedition-animals2.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+		<image number="175">
+			<imageCode>img175</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[_authors/expedition-animals2.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+			<image number="176">
+			<imageCode>img176</imageCode>
+			<thumbFileName><![CDATA[]]></thumbFileName>
+			<largeFileName><![CDATA[_authors/lincoln.jpg]]></largeFileName>
+			<credit></credit>
+			<approved>1</approved>
+			<layout>0</layout>
+		</image>
+	</images>
+	
+	
+	
+	
+	
+	<glossary>
+		
+		<!-- EXAMPLE
+		<entry number="0">
+			<imageCode>001</imageCode>
+			<term><![CDATA[something]]></term>
+			<definition><![CDATA[1: An explanation of what the term means]]></definition>
+		</entry>
+		-->
+		
+		<!-- 1 >> 10 -->
+		<entry number="1">
+			<imageCode>img113</imageCode>
+			<terms>
+			<term><![CDATA[aurorae]]></term>
+			</terms>
+			<title><![CDATA[aurorae]]></title>
+			<glossarycredit><![CDATA[Aurora australis at Halley station with Piggott platform and SHARE radar antenna array in the background. British Antarctic Survey / Thomas Spiess]]></glossarycredit>
+			<definition><![CDATA[Coloured lights that appear in the sky in northerly and southerly regions of the Earth, including the Arctic and Antarctic. ]]></definition>
+		</entry>
+		<entry number="2">
+			<imageCode>img114</imageCode>
+			<terms>
+				<term><![CDATA[Ballast]]></term>
+			</terms>
+			<title><![CDATA[Ballast]]></title>
+			<glossarycredit><![CDATA[Ship plan illustrating the storage of tanks, barrels and ballast in a warship, 1837, ZAZ0440]]></glossarycredit>
+			<definition><![CDATA[Ballast is heavy material placed at the bottom of a ship to help keep it stable.]]></definition>
+		</entry>
+		<entry number="3">
+			<imageCode>img115</imageCode>
+			<terms>
+				<term><![CDATA[Ben Nevis]]></term>
+			</terms>
+			<title><![CDATA[Ben Nevis]]></title>
+			<glossarycredit><![CDATA[Watercolour of Ben Nevis, PAF1537]]></glossarycredit>
+			<definition><![CDATA[A Scottish mountain, the highest in Britain (1,345 metres).]]></definition>
+		</entry>
+		
+		<entry number="4">
+			<imageCode>img116</imageCode>
+			<terms>
+				<term><![CDATA[Chloroform]]></term>
+			</terms>
+			<title><![CDATA[Chloroform]]></title>
+			<glossarycredit><![CDATA[Bottle of chloroform, United Kingdom, 1896-1945, Science Museum, London. CC BY]]></glossarycredit>
+			<definition><![CDATA[A powerful chemical that can be used to make people and animals unconscious. Once used by doctors as an anaesthetic, it is now considered unsafe.  ]]></definition>
+		</entry>
+		<entry number="5">
+			<imageCode>img117</imageCode>
+			<terms>
+				<term><![CDATA[Close season]]></term>
+			</terms>
+			<title><![CDATA[Close season]]></title>
+				<glossarycredit><![CDATA[Watercolour of a brace of pheasants, PAH6037]]></glossarycredit>
+			<definition><![CDATA[A period of the year when the killing of a particular animal is forbidden by law.]]></definition>
+		</entry>
+		<entry number="6">
+			<imageCode>img118</imageCode>
+			<terms>
+				<term><![CDATA[Ice floe]]></term>
+			</terms>
+			<title><![CDATA[Ice floe]]></title>
+				<glossarycredit><![CDATA[Photograph of skua gulls on an ice flow, 1911, ALB1217.18]]></glossarycredit>
+			<definition><![CDATA[Sheets of ice floating on the sea. Some ice floes are thick enough to take the weight of people.]]></definition>
+		</entry>
+		<entry number="7">
+			<imageCode>img119</imageCode>
+			<terms>
+				<term><![CDATA[Geological hammer]]></term>
+			</terms>
+			<title><![CDATA[Geological hammer]]></title>
+			<glossarycredit><![CDATA[Thomas Griffith Taylor’s Hammer © 2018. Sedgwick Museum of Earth Sciences, University of Cambridge. Reproduced with permission. CAMSM X 50227.18 ]]></glossarycredit>
+			<definition><![CDATA[A hammer used to split rocks open so they can be studied.]]></definition>
+		</entry>
+		<entry number="8">
+			<imageCode>img120</imageCode>
+			<terms>
+				<term><![CDATA[Impedimenta]]></term>
+			</terms>
+			<glossarycredit><![CDATA[Photograph of Antarctic hut and expedition equipment, 1911, ALB1217.34]]></glossarycredit>
+			<title><![CDATA[Impedimenta]]></title>
+			<definition><![CDATA[Bulky equipment and other baggage used for an expedition. ]]></definition>
+		</entry>
+		<entry number="9">
+			<imageCode>img121</imageCode>
+			<terms>
+				<term><![CDATA[Methylated spirits]]></term>
+			</terms>
+			<title><![CDATA[Methylated spirits]]></title>
+			<glossarycredit><![CDATA[Primus No.5 'Silent' brass paraffin cooking stove, Image No. 10182382, © Science Museum / Science & Society Picture Library -- All rights reserved. ]]></glossarycredit>
+			<definition><![CDATA[A type of alcohol that polar explorers used for fuel. It tastes unpleasant and is very dangerous to drink.]]></definition>
+		</entry>
+		<entry number="10">
+			<imageCode>img122</imageCode>
+			<terms>
+				<term><![CDATA[Primroses]]></term>
+			</terms>
+			<title><![CDATA[Primroses]]></title>
+			<glossarycredit><![CDATA[A selection of pink primroses]]></glossarycredit>
+			<definition><![CDATA[A type of flower that is very common in the British countryside. ]]></definition>
+		</entry>
+		
+		<!-- 11 >> 13 -->
+		<entry number="11">
+			<imageCode>img123</imageCode>
+			<terms>
+				<term><![CDATA[Trepidation]]></term>
+			</terms>
+			<title><![CDATA[Trepidation]]></title>
+			<glossarycredit><![CDATA[Detail of sketch showing prisoners of war, 1941, ZBA5341]]></glossarycredit>
+			<definition><![CDATA[Fear or anxiety about something that may happen. ]]></definition>
+		</entry>
+		<entry number="12">
+			<imageCode>img124</imageCode>
+			<terms>
+				<term><![CDATA[Windward]]></term>
+			</terms>
+			<title><![CDATA[Windward]]></title>
+			<glossarycredit><![CDATA[Watercolour of a man working on a weathervane, PAE2472]]></glossarycredit>
+			<definition><![CDATA[The direction from which the wind is blowing. ]]></definition>
+		</entry>
+		
+	</glossary>
+	
+	
+	<authors>
+		
+		<!-- EXAMPLE
+		<author number="0">
+			<imageCode>001</imageCode>
+			<authorName><![CDATA[Fred Dead]]></authorName>
+			<authorBio><![CDATA[Poor old Fred died in bed.]]></authorBio>
+		</author>
+		-->
+		
+		<!-- 1 >> 10 -->
+		<person number="1">
+			<imageCode>img141</imageCode>
+			<authorFullName><![CDATA[Roald Amundsen]]></authorFullName>
+			<authorName><![CDATA[Roald Amundsen]]></authorName>
+			<authorDesc><![CDATA[(1872–1928), born in Borge, Norway]]></authorDesc>
+			<authorBio><![CDATA[Amundsen had a lifelong desire to be a polar explorer. His first Antarctic experience was in 1897 when he joined a Belgian expedition. Amundsen was the first to navigate the North-West Passage from 1903 to 1906. As the North Pole had apparently been reached already, he decided to aim for the South Pole. On 14 December 1911 his team became the first to reach it, nearly a month before Scott’s British expedition. He became a national hero in Norway. Amundsen’s later polar exploits included navigating though the North-East Passage, crossing the Arctic by flying boat and across the North Pole by airship. He died in 1928 searching the Arctic for the Italian explorer Umberto Nobile. Only part of the missing aircraft was ever recovered. ]]></authorBio>
+			<authorCredit><![CDATA[Photograph of Roald Amundsen, National Library of Norway]]></authorCredit>
+		</person>
+		<person number="2">
+			<imageCode>img142</imageCode>
+			<authorFullName><![CDATA[Louis Charles Bernacchi]]></authorFullName>
+			<authorName><![CDATA[Louis Charles Bernacchi]]></authorName>
+			<authorDesc><![CDATA[(1876–1942), probably born in Belgium. Migrated to Australia in 1884]]></authorDesc>
+			<authorBio><![CDATA[The physicist Bernacchi was one of the first men to overwinter in the Antarctic on the <i>Southern Cross</i> expedition (1898–1900). He returned to the Antarctic on Scott’s Discovery expedition (1901–04), where he had a reputation for being cheerful. Bernacchi turned down a place on Scott’s final expedition on the Terra Nova. His scientific research focussed on terrestrial magnetism (the Earth’s magnetic properties) and seismology (earthquakes and energy waves travelling through the Earth). While he published many books and was awarded a range of honours for his work, he also briefly entered British politics, invested in rubber plantations, served in both World Wars and became a councillor of the Royal Geographical Society. ]]></authorBio>
+			<authorCredit><![CDATA[Photograph of Louis Bernacchi and his wife Winifred, 1910, Catalyst Science Discovery Centre, Widnes]]></authorCredit>
+		</person>
+		<person number="3">
+			<imageCode>img143</imageCode>
+			<authorFullName><![CDATA[Olav Bjaaland]]></authorFullName>
+			<authorName><![CDATA[Olav Bjaaland]]></authorName>
+			<authorDesc><![CDATA[(1873–1961), born in Kviteseid, Norway]]></authorDesc>
+			<authorBio><![CDATA[In 1909, Bjaaland was on the team that won first prize at a skiing competition in France when he met the polar explorer Roald Amundsen. Impressed by Bjaarland’s skills Amundsen invited him to join the Norwegian South Pole expedition, His abilities to adapt skis and sledging equipment made him a valuable asset.  He was part of the five-man team that reached the South Pole on 14 December 1911, almost four weeks before Scott’s expedition. He ’didn't want to join another expedition and set up a ski manufacturing business. Bjaarland was awarded the honour of lighting the torch for the cross-country ski relay at the Oslo Winter Olympic Games in 1952.]]></authorBio>
+			<authorCredit><![CDATA[Photograph of Olav Bjaaland, 1911, National Library of Norway]]></authorCredit>
+		</person>
+				<person number="4">
+			<imageCode>img144</imageCode>
+			<authorFullName><![CDATA[Henry Robertson Bowers]]></authorFullName>
+			<authorName><![CDATA[Henry Bowers]]></authorName>
+			<authorDesc><![CDATA[(1883–1912), born in Greenock, Scotland]]></authorDesc>
+			<authorBio><![CDATA[Known as ‘Birdie’ due to his prominent nose, Bowers was an integral part of Scott’s <i>Terra Nova</i> Expedition (1910–1913). He was noted for his excellent organisational skills, selfless nature and strong work ethic.  Bowers was part of the five-man team, led by Scott, which reach the South Pole nearly a month after Amundsen’s Norwegian team, but died on the return journey to Hut Point. His body was found with Scott’s and Wilson’s in their tent some 11 miles south of the next depot. The three were buried where they lay. The Bowers Piedmont Glacier and Bowers Mounts in Antarctica are named after him. ]]></authorBio>
+			<authorCredit><![CDATA[Detail of a photograph showing Henry Bowers, 1911, ALB1217.36]]></authorCredit>
+		</person>
+				<person number="5">
+			<imageCode>img145</imageCode>
+			<authorFullName><![CDATA[Victor Campbell]]></authorFullName>
+			<authorName><![CDATA[Victor Campbell]]></authorName>
+			<authorDesc><![CDATA[(1875–1956), born in Brighton, England]]></authorDesc>
+			<authorBio><![CDATA[After he had run away from home three times, Campbell’s father finally allowed him to join the Royal Navy.   He served as First Officer on Scott’s Terra Nova Expedition (1910–1913), and was picked to lead the Eastern Party exploring King Edward VII Land. However, with Amundsen in the Bay of Whales near King Edward Land, he switched to Cape Adare, north-west of Scott’s base. After the ship failed to relieve them, he and five companions spent seven months of 1912 in a 9ft by 5ft ice cave, lacking adequate equipment and rations.  They sledged the 200-mile journey to base camp only to discover that Scott’s party had died nine months earlier. In 1913 he was promoted to Commander and served in both World Wars, receiving the DSO and OBE. ]]></authorBio>
+			<authorCredit><![CDATA[Victor Campbell on board 'Thalia', 1910, John Oxley Library, State Library of Queensland Neg: 151666]]></authorCredit>
+		</person>
+				<person number="6">
+			<imageCode>img146</imageCode>
+			<authorFullName><![CDATA[Jean-Baptiste Charcot]]></authorFullName>
+			<authorName><![CDATA[Jean-Baptiste Charcot]]></authorName>
+			<authorDesc><![CDATA[(1867–1936), born in Neuilly-sur-Seine, France]]></authorDesc>
+			<authorBio><![CDATA[Charcot, an experienced yachtsman, led two Antarctic expeditions, including the first French Antarctic expedition in 70 years aboard the Français (1903–05). His second journey south (1908–10) was aboard the Pourquois Pas?, which translates as ‘Why Not?’, a response to his father who had refused his early requests to join the French navy. Nicknamed ‘The Polar Gentleman’, Charcot organised educational classes and poetry reading to maintain crew morale. His expeditions charted new Antarctic territories and contributed to a range of scientific fields. Charcot became a national hero in France. After serving in the First World War, he focussed on exploring the Bay of Biscay and the North Atlantic. Charcot was killed, along with all but one crew, when his ship hit a rock off the coast of Iceland. He was buried with full honours and the President of France attended his funeral.]]></authorBio>
+			<authorCredit><![CDATA[Photograph of Jean-Baptiste Charcot, 1925, Library of Congress, Prints & Photographs Division, [LC-DIG-ggbain-04801]]]></authorCredit>
+		</person>
+				<person number="7">
+			<imageCode>img147</imageCode>
+			<authorFullName><![CDATA[John King Davis]]></authorFullName>
+			<authorName><![CDATA[John King Davis]]></authorName>
+			<authorDesc><![CDATA[(1884–1967), born at Kew, England ]]></authorDesc>
+			<authorBio><![CDATA[At 16, Davis ran away to join a merchant ship. His first journey to the Antarctic was with Shackleton’s <i>Nimrod</i> Expedition (1907–09), where he successfully navigated uncharted waters in dangerous weather conditions. Known as ‘Gloomy’, Davis was said to be reserved and resolute. Later, he was master of the <i>Aurora</i> and second-in-command of Mawson’s Australasian Antarctic Expedition (1911–14). In 1916 he again captained the <i>Aurora</i> to rescue stranded explorers in the Antarctic. Davis commanded the <i>Discovery</i> during the first year of the British, Australian and New Zealand Antarctic Expedition (BANZARE, 1929–30). From 1920 until his retirement, Davis served as Commonwealth Director of Navigation and as a member of the Australian government’s Antarctic exploration committee. He received many awards, including the CBE. The Davis Sea on the Eastern Antarctic coast was named in his honour. ]]></authorBio>
+			<authorCredit><![CDATA[Portrait of Captain John King Davis, State Library of New South Wales, [IE1556289]]]></authorCredit>
+		</person>
+				<person number="8">
+			<imageCode>img148</imageCode>
+			<authorFullName><![CDATA[Frank Debenham]]></authorFullName>
+			<authorName><![CDATA[Frank Debenham]]></authorName>
+			<authorDesc><![CDATA[(1883–1965), born in New South Wales, Australia]]></authorDesc>
+			<authorBio><![CDATA[Debenham served as geologist on the Terra Nova Expedition (1910–13). Known as ‘Deb’ to his fellow explorers, he made significant contributions to the expedition in the fields of geology and cartography. After serving in the First World War, Debenham taught at the University of Cambridge. He founded the university’s Scott Polar Research Institute, with fellow explorers James Wordie and Raymond Priestley, serving as its director from 1926 until 1946. His work helped to establish Cambridge as a global centre for polar research. Two buildings in the city are named after him, along with a glacier and a mountain in Antarctica. Debenham received many awards and honorary degrees, including the Royal Geographical Society’s Victoria Medal and an OBE. ]]></authorBio>
+			<authorCredit><![CDATA[Detail of photograph showing Frank Debenham, 1911, ALB1217.35]]></authorCredit>
+		</person>
+				<person number="9">
+			<imageCode>img149</imageCode>
+			<authorFullName><![CDATA[Harry Dickason]]></authorFullName>
+			<authorName><![CDATA[Harry Dickason]]></authorName>
+			<authorDesc><![CDATA[(1885–1943), born in London, England]]></authorDesc>
+			<authorBio><![CDATA[Dickason was an Able Seaman on Scott’s Terra Nova Expedition (1910–13). He joined the party focussing on scientific work around Cape Adare, and  was appointed chef.He was very practical and adapted much-needed equipment. The following year, the team moved to the coast of Victoria Land. When the Terra Nova failed to collect them, they built an ice cave and sheltered there for six months, living off penguins and seal meat. To survive they made the 200-mile journey to Cape Evans to meet the ship. The journey was treacherous and Dickason was ill for much of it. On their safe return, they learnt of the deaths of Scott and his companions. Dickason was awarded the Polar Medal for his role on the expedition. ]]></authorBio>
+			<authorCredit><![CDATA[H. Dickason, Scott Polar Research Institute, University of Cambridge, with permission, P48/14/2]]></authorCredit>
+		</person>
+				<person number="10">
+			<imageCode>img150</imageCode>
+			<authorFullName><![CDATA[Tryggve Gran]]></authorFullName>
+			<authorName><![CDATA[Tryggve Gran]]></authorName>
+			<authorDesc><![CDATA[(1889–1980), born in Bergen, Norway]]></authorDesc>
+			<authorBio><![CDATA[Gran was introduced to Captain Scott by the Norwegian explorer Fridtjof Nansen, who invited him to join the Terra Nova Expedition (1910–13) because of his skiing expertise. Gran was a member of the search party that discovered Scott’s body and remained loyal to him throughout his life, saying ‘Scott was a man. He would always listen to you.’ He later learned to fly, bought an aeroplane and became the first person to fly over the North Sea. Gran fought in the First World War and served in the Royal Air Force. During the Second World War, he supported the Nasjonal Samling, a Norwegian fascist party. He served time in prison for treason after the war but later devoted his life to writing and lecturing. ]]></authorBio>
+			<authorCredit><![CDATA[Portrait of Tryggve Gran, 1912-13, National Library of Norway]]></authorCredit>
+		</person>
+				<person number="11">
+			<imageCode>img151</imageCode>
+			<authorFullName><![CDATA[Herbert Victor Goddard]]></authorFullName>
+			<authorName><![CDATA[H.V. Goddard]]></authorName>
+			<authorDesc><![CDATA[(1888–1960), born in Birmingham, England]]></authorDesc>
+			<authorBio><![CDATA[Goddard served as Second Steward aboard the Aurora (1912–13) on its expedition to Antarctica to rescue the crew of Douglas Mawson’s Australasian Antarctic Expedition (1911–14). Goddard kept a journal of his polar experiences, describing Antarctica as both ‘beautiful and strange’. A young man, he celebrated his 25th birthday during the voyage. Goddard later served in Egypt and France during the First World War. He returned home after being wounded in action and set up a successful automotive parts and repair company, City Bodyworks Pty Ltd. ]]></authorBio>
+			<authorCredit><![CDATA[Photograph of Herbert Goddard by Percy E. Correll, about 1913, Collection: Tasmanian Museum and Art Gallery]]></authorCredit>
+		</person>
+				<person number="12">
+			<imageCode>img152</imageCode>
+			<authorFullName><![CDATA[Charles Harrisson]]></authorFullName>
+			<authorName><![CDATA[Charles Harrisson]]></authorName>
+			<authorDesc><![CDATA[(1866–1914), born in Tasmania, Australia]]></authorDesc>
+			<authorBio><![CDATA[Harrisson was a keen artist, a competent yachtsman and an enthusiastic field naturalist. He joined Mawson’s Australasian Antarctic Expedition (1911–14), earning a reputation for level-headedness and an easy manner. Harrisson went on many sledging expeditions, producing sketches and collecting specimens. Later in Australia, he briefly worked for the Commonwealth Department of Fisheries. However, in 1914, he joined the <i>Endeavour</i> to resupply an Antarctic weather station on Macquarie Island. They completed their task but the <i>Endeavour</i> failed to return to Australia. The outbreak of the First World War prevented an immediate search and subsequent efforts found no trace of the vessel. Cape Harrisson and Mount Harrisson in Antarctica are named in his honour. ]]></authorBio>
+			<authorCredit><![CDATA[Charles Harrison, Mitchell Library, State Library of New South Wales [IE1552219]]]></authorCredit>
+		</person>
+				<person number="13">
+			<imageCode>img153</imageCode>
+			<authorFullName><![CDATA[Clarence Howard Hare]]></authorFullName>
+			<authorName><![CDATA[Clarence Hare]]></authorName>
+			<authorDesc><![CDATA[(1880–1967), born in Invercargill, New Zealand]]></authorDesc>
+			<authorBio><![CDATA[Hare was only 20 years old when he was appointed as a steward aboard the <i>Discovery</i> Expedition (1901–04) after the previous steward was dismissed. Hare took part in a number of sledging journeys. He was almost killed on one trip in March 1902 when he became separated from his sledging party during a blizzard. His companions gave up hope of finding him and returned to the <i>Discovery</i>. Hare fell asleep but found that the weather had cleared when he awoke. He eventually managed to get back to the ship. After the expedition, Hare returned to New Zealand and made a living tuning and repairing pianos. He died in 1967 – the last surviving member of the <i>Discovery</i> Expedition. Hare Peak in Antarctica is named after him. ]]></authorBio>
+			<authorCredit><![CDATA[Clarence Hare, photograph by G. Hillsdon, from The Weekly Press, 18 December 1901, Canterbury Museum, New Zealand, 1967.176.28]]></authorCredit>
+		</person>
+				<person number="14">
+			<imageCode>img154</imageCode>
+			<authorFullName><![CDATA[Victor George Hayward]]></authorFullName>
+			<authorName><![CDATA[Victor George Hayward]]></authorName>
+			<authorDesc><![CDATA[(1887–1916), born in London, England]]></authorDesc>
+			<authorBio><![CDATA[As a boy Hayward was given Robert Ballantyne’s <i>The World of Ice</i>; or, <i>Adventures in the Polar Regions</i> as a prize at Sunday school. This may explain his decision to become an Antarctic explorer. He was appointed general assistant for Shackleton’s Imperial Trans-Antarctic Expedition (1914–17). As part of the ‘Ross Sea Party’, Hayward was tasked with laying a chain of supply depots to aid Shackleton’s crossing the Antarctic. However, ten of them were left stranded when the expedition’s ship <i>Aurora</i> broke free in a gale and drifted in ice with vital food and equipment on board. Despite this they completed their task. Hayward and the party’s leader, Aeneas Mackintosh, died attempting to cross unstable sea ice to reach Cape Evans. Their bodies were never found. ]]></authorBio>
+			<authorCredit><![CDATA[Detail of photograph showing Victor Hayward, about 1915, JOD/231/2]]></authorCredit>
+		</person>
+				<person number="15">
+			<imageCode>img155</imageCode>
+			<authorFullName><![CDATA[Frank Hurley]]></authorFullName>
+			<authorName><![CDATA[Frank Hurley]]></authorName>
+			<authorDesc><![CDATA[(1885–1962), born in Sydney, Australia]]></authorDesc>
+			<authorBio><![CDATA[Hurley, a self-taught photographer and filmmaker, took part in several polar expeditions between 1911 and 1934. He first joined Mawson’s Australasian Antarctic Expedition in 1911, creating the documentary film <i>Home of the Blizzard</i>. Shackleton invited him to join <i>Endurance</i> in 1914.When the ship was trapped and sunk by pack ice, Hurley had to plunge into freezing waters to salvage as many of his negatives as possible. Films about his travels include <i>In the Grip of the Polar Pack-Ice</i> (1919) and <i>Siege to the South</i> (1931). Hurley was the Australian Imperial Force official war photographer during the First World War, and in the Second World War he led the Australian Broadcasting Commission’s photographic unit in the Middle East. Hurley received an OBE in 1941. He later published photographic books documenting his varied career. ]]></authorBio>
+			<authorCredit><![CDATA[Captain Frank Hurley with a camera on board the Discovery, about 1931, by Frank Hurley, National Library of Australia, PIC/3410/147]]></authorCredit>
+		</person>
+				<person number="16">
+			<imageCode>img156</imageCode>
+			<authorFullName><![CDATA[Andrew Keith Jack]]></authorFullName>
+			<authorName><![CDATA[Keith Jack]]></authorName>
+			<authorDesc><![CDATA[(1885–1966), born in Melbourne, Australia]]></authorDesc>
+			<authorBio><![CDATA[Jack took part in Shackleton’s Imperial Trans-Antarctic Expedition (1914–17), which aimed to cross the Antarctic from coast to coast. As a member of the ‘Ross Sea Party’, Jack was among those laying supplies for Shackleton and his companions. However, ten of them were left stranded when the expedition’s ship <i>Aurora</i> broke free in a gale and drifted in ice with vital food and equipment on board. Despite this they completed their task. Jack kept a detailed diary, took many striking photographs and made significant meteorological studies, helping our understanding of weather conditions in the Ross Sea region. Afterwards, Jack returned to Australia working as a chemist in the Government Cordite Factory (later known as the Explosives Factory). He later served as Australian Munitions Representative to Britain during the Second World War. ]]></authorBio>
+			<authorCredit><![CDATA[Andrew Keith Jack, A H Larkman collection, Canterbury Museum]]></authorCredit>
+		</person>
+				<person number="17">
+			<imageCode>img157</imageCode>
+			<authorFullName><![CDATA[William Lashly]]></authorFullName>
+			<authorName><![CDATA[William Lashly]]></authorName>
+			<authorDesc><![CDATA[(1867–1940), born in Hampshire, England]]></authorDesc>
+			<authorBio><![CDATA[Lashly joined the Royal Navy in 1889 as a stoker and served in this role on the <i>Discovery</i> Expedition (1901–04). During the <i>Terra Nova</i> Expedition (1910–13), he and Tom Crean saved the life of Edward ‘Teddy’ Evans when he succumbed to scurvy on a journey back to base. Exhausted and 35 miles from camp, Crean set out to seek help while Lashly took care of Evans. All three survived and remained friends for the rest of their lives. Both Crean and Lashly received the Albert Medal for their courage. Lashly was part of the search party that found Scott and his companions’ bodies. He was noted for his strength and endurance, along with his ‘exceptionally reserved’ manner. The Lashly glacier and Lashly Mountains in Antarctica are named for him. ]]></authorBio>
+			<authorCredit><![CDATA[William Lashly, Scott Polar Research Institute, University of Cambridge, with permission, P2005/5/983]]></authorCredit>
+		</person>
+		<person number="18">
+			<imageCode>img158</imageCode>
+			<authorFullName><![CDATA[George Murray Levick]]></authorFullName>
+			<authorName><![CDATA[George Murray Levick]]></authorName>
+			<authorDesc><![CDATA[(1876–1956), born in Newcastle, England]]></authorDesc>
+			<authorBio><![CDATA[After studying medicine and joining the Royal Navy, Levick became surgeon and zoologist on the <i>Discovery</i> Expedition (1910–13). He was one of six men who explored the coast of Victoria Land, forced to spend the winter of 1911–12 living in an ice-cave, surviving on penguins and seal meat. His research was later published as <i>Antarctic Penguins</i> (1914), omitting observations on the sexual habits of penguins that may have shocked the public. Levick’s varied career included serving in the First World War, working as a physiotherapist at Victoria Hospital for Children in Chelsea, and championing the cause of blind physiotherapy students. He also established the Public Schools Exploring Society (now the British Exploring Society) in 1932. He would later train commandos during the Second World War and publish a book on guerrilla warfare. ]]></authorBio>
+			<authorCredit><![CDATA[Dr Levick skinning a penguin in the Terra Nova, Scott Polar Research Institute, University of Cambridge, with permission, P2005/5/910]]></authorCredit>
+		</person>
+		<person number="19">
+			<imageCode>img159</imageCode>
+			<authorFullName><![CDATA[Aeneas Lionel Acton Mackintosh]]></authorFullName>
+			<authorName><![CDATA[A.L.A. Mackintosh]]></authorName>
+			<authorDesc><![CDATA[(1879–1916), born in Tirhut, India. Returned to Britain with his mother as a child ]]></authorDesc>
+			<authorBio><![CDATA[Mackintosh served aboard several merchant ships before joining Ernest Shackleton’s <i>Nimrod</i> Expedition (1907–09). He lost his right eye while unloading stores and had to convalesce in New Zealand before re-joining the expedition in 1908. He later took part in a failed gold-mining scheme in the Carpathian Mountains and an expedition to Cocos Island off Panama to find Spanish treasure. Mackintosh returned to polar exploration with Shackleton’s Imperial Trans-Antarctic Expedition (1914–17). He led the ‘Ross Sea Party’, which created a series of depots to supply the land party led by Shackleton. Mackintosh and Victor Hayward were lost in a blizzard crossing unstable sea ice to the hut at Cape Evans. Their bodies were never found. ]]></authorBio>
+			<authorCredit><![CDATA[Aeneas Mackintosh aboard Nimrod, Royal Geographical Society (with IBG)]]></authorCredit>
+		</person>
+		<person number="20">
+			<imageCode>img160</imageCode>
+			<authorFullName><![CDATA[Alexander Hepburne Macklin]]></authorFullName>
+			<authorName><![CDATA[Alexander Macklin]]></authorName>
+			<authorDesc><![CDATA[(1889–1967), born in India. Moved to the Scilly Isles as a boy]]></authorDesc>
+			<authorBio><![CDATA[As a trained doctor, Macklin gain the post of surgeon on the Imperial Trans-Antarctic Expedition (1914–17). When the expedition’s ship <i>Endurance</i> was destroyed by pack ice, Macklin was one of those who camped on Elephant Island for four months, awaiting rescue. He returned to Antarctica on the Shackleton-Rowett Expedition (1921–22). Macklin tended Shackleton when he became ill and later died on the expedition. Macklin served in both World Wars, receiving the Military Cross. He subsequently settled in Dundee, Scotland, working at both the Dundee Royal Infirmary and Aberdeen Royal Infirmary. Among the awards and honours he received was a fellowship of the Royal Geographical Society. Mount Macklin in Antarctica was named after him. ]]></authorBio>
+			<authorCredit><![CDATA[A. H. Macklin, Scott Polar Research Institute, University of Cambridge, with permission, P66/19/3A]]></authorCredit>
+		</person>
+		<person number="21">
+			<imageCode>img161</imageCode>
+			<authorFullName><![CDATA[Douglas Mawson]]></authorFullName>
+			<authorName><![CDATA[Douglas Mawson]]></authorName>
+			<authorDesc><![CDATA[(1882–1958), born Yorkshire, England. Moved to Australia as a child]]></authorDesc>
+			<authorBio><![CDATA[Mawson took part in Shackleton’s <i>Nimrod</i> Expedition (1907–09) but declined an invitation to serve on Scott’s <i>Terra Nova</i> Expedition (1910–13). He led the Australasian Antarctic Expedition (1911–14), writing a popular book <i>The Home of the Blizzard</i> (1915) about his experiences. Having achieved substantial fame, Mawson also received various honours, including a knighthood and an OBE, becoming a Fellow of the Royal Society in 1923. Mawson headed the British Australian and New Zealand Antarctic Expedition (BANZARE, 1929–31). His major discoveries covered a broad range of scientific fields and his work contributed to the claim of a substantial area of Antarctica by Australia. The Australian government gave Mawson a full state funeral and named a stretch of the Antarctic coastline after him. ]]></authorBio>
+			<authorCredit><![CDATA[Sir Douglas Mawson in his study aboard the Discovery, about 1930, by Frank Hurley, National Library of Australia, PIC/3410/100]]></authorCredit>
+		</person>
+		<person number="22">
+			<imageCode>img162</imageCode>
+			<authorFullName><![CDATA[Belgrave Edward Sutton Ninnis]]></authorFullName>
+			<authorName><![CDATA[B.E.S. Ninnis]]></authorName>
+			<authorDesc><![CDATA[(1887–1912), born in London, England]]></authorDesc>
+			<authorBio><![CDATA[Ninnis attended Dulwich College and the Royal Military College at Sandhurst. A riding accident ruined his plans to join the Indian Army. The son of an Arctic explorer (also called Belgrave Ninnis), he made repeated efforts to join Shackleton and Scott on their Antarctic expeditions but was initially unsuccessful. Shackleton was impressed by his persistence and arranged for him to join Mawson’s Australasian Antarctic Expedition (1911–14). Ninnis was charged with caring for the expedition’s Greenland dogs. Mawson noted that he was always ready and willing to assist, although others complained about his poor cooking skills. Ninnis was a member of the sledging party that surveyed King George V Land in November 1912. It was during this expedition that Ninnis fell into a crevasse and died. ]]></authorBio>
+			<authorCredit><![CDATA[Portrait of Lieutenant Belgrave Ninnis, about 1911, by Frank Hurley, National Library of Australia, PIC/14197/220 LOC Drawer PIC/14197]]></authorCredit>
+		</person>
+		<person number="23">
+			<imageCode>img163</imageCode>
+			<authorFullName><![CDATA[Reginald William Skelton]]></authorFullName>
+			<authorName><![CDATA[Reginald Skelton]]></authorName>
+			<authorDesc><![CDATA[(1872–1956), born in Lincolnshire, England]]></authorDesc>
+			<authorBio><![CDATA[Skelton was an engineer in the Royal Navy, where he met Robert Falcon Scott. Impressed with his skills and attitude, Captain Scott invited him to join the <i>Discovery</i> Expedition (1901–04). Skelton met Sybil Meares in New Zealand on his way to Antarctica. They later married in Britain. He took many of the expedition photographs, which were published in the expedition’s newspapers <i>South Polar Times</i> and <i>The Blizzard</i>. Fascinated by nature, he discovered the first known breeding place of emperor penguins while sledging to Cape Crozier. He later took part in the Battle of Jutland during the First World War, for which he was awarded the Distinguished Service Order. After the war, Skelton was posted around the world. He was knighted in 1931. ]]></authorBio>
+			<authorCredit><![CDATA[Photograph believed to be Reginald Skelton as a young man © Bromsgrove School Archive. Reproduced by kind permission of Bromsgrove School Archive & Judy Skelton]]></authorCredit>
+		</person>
+		<person number="24">
+			<imageCode>img164</imageCode>
+			<authorFullName><![CDATA[Charles Royds]]></authorFullName>
+			<authorName><![CDATA[Charles Royds]]></authorName>
+			<authorDesc><![CDATA[(1876–1931), born in Rochdale, England]]></authorDesc>
+			<authorBio><![CDATA[Royds became a naval cadet in 1892, receiving early promotion in 1898 for rescuing a man who fell overboard. He volunteered to join the <i>Discovery</i> Expedition (1910–13), serving as a lieutenant and as meteorologist Royds organised the physical training of those aboard, and led a sledge party across the Ross Ice Shelf. Following his Antarctic experiences, he returned to the navy and served in the First World War. He later served as an Assistant Commissioner of the Metropolitan Police, an appointment that was considered a success. Royds received many honours, including being made a KBE and <i>aide-de-camp</i> to the king. Cape Royds in Antarctica is named after him. ]]></authorBio>
+			<authorCredit><![CDATA[Photograph of Charles Royds, Dundee Heritage Trust]]></authorCredit>
+		</person>
+		<person number="25">
+			<imageCode>img165</imageCode>
+			<authorFullName><![CDATA[Robert Falcon Scott]]></authorFullName>
+			<authorName><![CDATA[Robert Falcon Scott]]></authorName>
+			<authorDesc><![CDATA[((1868–1912), born in Devonport, England]]></authorDesc>
+			<authorBio><![CDATA[After a steady career in the Royal Navy, Scott led the <i>Discovery</i> Expedition (1901–04). The expedition mapped Antarctica, conducted scientific research and reached a ‘furthest south’, bringing Scott fame. The main purpose of the <i>Terra Nova</i> expedition (1910–13) was scientific, but Scott hoped to be the first to reach the South Pole. However, his party was beaten by a Norwegian team under Roald Amundsen . Dejected, low on food and suffering from exposure, the 800-mile return journey was a disaster. Edgar Evans died first, followed by Lawrence Oates. Scott, Henry Bowers and Edward Wilson were only 11 miles from their supply depot when they died. Scott continued his journal to the end and was probably the last to die. His remains were discovered eight months later. A memorial service at St Paul’s Cathedral raised £75,000 to found the Scott Polar Research Institute in Cambridge. ]]></authorBio>
+			<authorCredit><![CDATA[Photograph of Robert Falcon Scott, P39560]]></authorCredit>
+		</person>
+		<person number="26">
+			<imageCode>img166</imageCode>
+			<authorFullName><![CDATA[Edward Adrian Wilson]]></authorFullName>
+			<authorName><![CDATA[Edward Wilson]]></authorName>
+			<authorDesc><![CDATA[(1872–1912), born in Cheltenham, England]]></authorDesc>
+			<authorBio><![CDATA[Wilson had a talent for drawing and was fascinated by nature, pursuing these interests while studying medicine at Cambridge. This unique combination of skills won him a place on the <i>Discovery</i> Expedition (1901–04), as artist, vertebrate zoologist and second surgeon. He produced many paintings and sketches of landscapes and wildlife while in the Antarctic, and became a close friend of Robert Scott. Wilson returned with Scott on the <i>Terra Nova</i> Expedition (1910–13), leading the scientific team. He was one of the five men who were beaten to the South Pole by Roald Amundsen’s Norwegian party. All five died on the return journey. A deeply religious man, Wilson composed a letter to his wife, assuring her ‘my love for you is for ever and a part of our love for God’. ]]></authorBio>
+			<authorCredit><![CDATA[Detail of a photograph showing Edward Wilson, 1910, ALB1217.6]]></authorCredit>
+		</person>
+		<person number="27">
+			<imageCode>img167</imageCode>
+			<authorFullName><![CDATA[James Mann Wordie]]></authorFullName>
+			<authorName><![CDATA[James Wordie]]></authorName>
+			<authorDesc><![CDATA[(1889–1962), born in Lanarkshire, Scotland]]></authorDesc>
+			<authorBio><![CDATA[Wordie became a geologist after studying at Glasgow and Cambridge Universities. His interest in polar exploration was awakened when he met explorers Frank Debenham and Raymond Priestly. He later joined Shackleton’s Imperial Trans-Antarctic Expedition (1914–17) as geologist and chief of the scientific staff. Wordie was noted for helping to maintain morale when the <i>Endurance</i> sank, leaving him and his team marooned on Elephant Island. He later served in the First World War and subsequently worked as geologist and deputy leader of the Scottish Spitsbergen Expedition in 1919 and 1920. From 1921 to 1952, he was Director of Studies in Geography at St John’s College, Cambridge. He also co-founded the Scott Polar Research Institute, along with Debenham and Priestley. ]]></authorBio>
+			<authorCredit><![CDATA[J.M. Wordie, P66/19/11A, Scott Polar Research Institute, University of Cambridge, with permission]]></authorCredit>
+		</person>
+		<person number="28">
+			<imageCode>img168</imageCode>
+			<authorFullName><![CDATA[Charles Seymour Wright]]></authorFullName>
+			<authorName><![CDATA[Charles S. Wright]]></authorName>
+			<authorDesc><![CDATA[(1887–1975), born in Toronto, Canada]]></authorDesc>
+			<authorBio><![CDATA[Wright won a scholarship to study physics at Cambridge University, where he met Douglas Mawson. Initially rejected for Scott’s <i>Terra Nova</i> Expedition (1910–13), he walked from Cambridge to London and was rewarded with a place for this stunt. As the expedition’s physicist, he studied the form, movement and structure of glaciers, providing the basis for a ground-breaking scientific report. He later married a sister of the polar explorer Raymond Priestley. Wright served during the First World War, earning a Military Cross and an OBE. In 1919, he joined the Admiralty’s Research Department, later becoming its director. During the Second World War, Wright worked on radar and mine detection equipment, which led to a knighthood in 1946. ]]></authorBio>
+			<authorCredit><![CDATA[Detail of a photograph showing Charles S. Wright, 1910, ALB1217.6]]></authorCredit>
+		</person>
+				<person number="29">
+			<imageCode>img169</imageCode>
+			<authorFullName><![CDATA[Stanley Gordon Roberts Taylor ]]></authorFullName>
+			<authorName><![CDATA[Stanley Taylor]]></authorName>
+			<authorDesc><![CDATA[(1887-1946), born in Melbourne, Australia]]></authorDesc>
+			<authorBio><![CDATA[Taylor, aged 25, served as a fireman aboard Aurora, the ship sent to collect Douglas Mawson and members of the Australasian Antarctic Expedition during 1912-13. Taylor had run away to sea aged about 12, serving on various ships before joining Aurora. His duties included hauling coal, stoking the boilers and caring for the dogs. He also assisted the ship’s taxidermist in catching and skinning penguins. The crew had orders not to keep diaries (or take photographs) but both Taylor and Bert Lincoln disobeyed, writing private journals. Taylor had to stop writing entries after the skin on his hands was damaged by the cold and damp.]]></authorBio>
+			<authorCredit><![CDATA[Photograph of Stanley Taylor, By kind permission of Irene M. Gale]]></authorCredit>
+		</person>
+		
+			<person number="30">
+			<imageCode>img170</imageCode>
+			<authorFullName><![CDATA[Thomas Orde-Lees]]></authorFullName>
+			<authorName><![CDATA[Thomas Orde-Lees]]></authorName>
+			<authorDesc><![CDATA[(1887-1946), born in Melbourne, Australia]]></authorDesc>
+			<authorBio><![CDATA[TBD]]></authorBio>
+			<authorCredit><![CDATA[TBD]]></authorCredit>
+		</person>
+		
+			<person number="31">
+			<imageCode>img176</imageCode>
+			<authorFullName><![CDATA[Bert Lincoln]]></authorFullName>
+			<authorName><![CDATA[Bert Lincoln]]></authorName>
+			<authorDesc><![CDATA[(1887-1946), born in Melbourne, Australia]]></authorDesc>
+			<authorBio><![CDATA[TBD]]></authorBio>
+			<authorCredit><![CDATA[TBD]]></authorCredit>
+		</person>
+		
+	</authors>
+	
+</document>

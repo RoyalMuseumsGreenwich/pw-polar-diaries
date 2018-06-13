@@ -1,0 +1,204 @@
+<!doctype html>
+
+<html lang="en">
+	
+	<head>
+		
+		<meta charset="uft-8">
+		
+		<title>Polar Diary - RMG Text/Image Browser</title>
+		  <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1"/>
+
+		<!-- CSS -->
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/attractor.css">
+		
+		<!-- JS -->
+		<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+		<!--
+		<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="js/jquery.timer.js"></script>
+		-->
+		
+	</head>
+	
+	<body>
+		
+		<div id="contentWrapper">
+			
+			
+			
+			<div class="screenDiv" id="mainMenuScreen">
+				
+				<div class="screenDivContent" id="mainMenuContent">
+					<!--<a href="#" class="credits">credits</a>-->
+					<div class="buttons" id="mainMenuContentText">
+						<h1 id="mainMenuScreenHeadingText"></h1>
+						<p id="mainMenuScreenBodyText"></p>
+					</div>
+					<div class="wrapperbuttons"><div class="buttons">
+					<div class="mainMenuButton" id="mainMenuButton01" quotesCategory="antartic-wildlife"><img src="img/ui/antartic-wildlife.svg"><span>Antarctic Wildlife</span></div>
+					<div class="mainMenuButton" id="mainMenuButton02" quotesCategory="arguments-an-frustration"><img src="img/ui/arguments-and-frustration.svg"><span>Arguments and Frustration</span></div>
+					<div class="mainMenuButton" id="mainMenuButton03" quotesCategory="death-and-danger"><img src="img/ui/death-and-danger.svg"><span>Death and Danger</span></div>
+					<div class="mainMenuButton" id="mainMenuButton04" quotesCategory="dirt-and-hygiene"><img src="img/ui/dirt-and-hygiene.svg"><span>Dirt and Hygiene</span></div>
+					<div class="mainMenuButton" id="mainMenuButton05" quotesCategory="expedition-animals"><img src="img/ui/expedition-animals.svg"><span>Expedition Animals</span></div>
+					<div class="mainMenuButton" id="mainMenuButton06" quotesCategory="extreme-cold"><img src="img/ui/extreme-cold.svg"><span>Extreme Cold</span></div>
+					<div class="mainMenuButton" id="mainMenuButton07" quotesCategory="food-and-drink"><img src="img/ui/food-and-drink.svg"><span>Food and Drink</span></div>
+					<div class="mainMenuButton" id="mainMenuButton08" quotesCategory="homesickness"><img src="img/ui/homesickness.svg"><span>Homesickness</span></div>
+					<div class="mainMenuButton" id="mainMenuButton09" quotesCategory="joy"><img src="img/ui/joy.svg"><span>Joy</span></div>
+					<div class="mainMenuButton" id="mainMenuButton10" quotesCategory="landscapes-and-seascapes"><img src="img/ui/landscapes-and-seascapes.svg"><span>Landscapes and Seascapes</span></div>
+					<div class="mainMenuButton" id="mainMenuButton11" quotesCategory="misery-and-boredom"><img src="img/ui/misery-and-boredom.svg"><span>Misery and Boredom</span></div>
+					<div class="mainMenuButton" id="mainMenuButton12" quotesCategory="sledging-and-camping"><img src="img/ui/sledging-and-camping.svg"><span>Sledging and Camping</span></div>
+					</div>
+					</div>
+					<span class="decoration1 scale"></span><span class="decoration2 rotate"></span><span class="decoration3 pulse"></span>
+				</div>
+				
+			</div>
+			
+			<div class="screenDiv" id="quoteScreen">
+				<div class="greenbackground"></div>
+				<div class="screenDivContent" id="quoteContent" quoteNumber="0">
+				<ul id="pagination"></ul>
+				
+					<div id="quoteTextWrapper">
+					<div id="quoteImageHolder"><div id="imageDescription"></div><img id="quoteImage" src="" /></div><span class="decoration4"></span><span class="decoration8"></span>
+						<div id="quoteBodyTextHolder"></div>
+						<div id="quoteObjectNamePageNumberTextHolder">
+		
+						</div>
+						<div id="quoteAccessionNumberTextHolder"></div>
+						<div id="quoteAuthorTextHolder"></div>
+						<div id="quoteDateTextHolder"></div>
+						
+					</div>
+					<div id="quoteCategory">Thoughts about <span></span></div>
+					<div id="quoteScreenLeftButton" class="quoteScreenNavButton"></div>
+					<div id="quoteScreenRightButton" class="quoteScreenNavButton"></div>
+					<div id="quoteScreenCloseButton">BACK TO MENU</div>
+					<span class="decoration5 scale"></span>
+				</div>
+				
+			</div>
+			
+			<div class="screenDiv" id="glossaryScreen">		
+				<div class="screenDivContent" id="glossaryContent" glossaryTermNumber="0">				
+					<div id="glossaryTextHolder">
+							<div id="glossaryScreenImageHolder"><img id="glossaryImage" src="" /></div>
+							<div id="glossaryCredits"></div>
+						<div id="glossaryScreenCloseButton"></div>
+						<div id="glossaryScreenTermTextHolder"></div>
+						<div id="glossaryScreenDefinitionTextHolder"></div>
+					</div>
+					<span class="decoration6 scale"></span>
+					<span class="decoration7 pulse"></span>
+				</div>	
+			</div>
+					
+			
+			<div class="screenDiv" id="authorScreen">		
+				<div class="screenDivContent" id="authorContent" authorNumber="0">				
+					<div id="authorTextHolder">
+							<div id="authorScreenImageHolder"><img id="authorImage" src="" /> <div id="authorCredits"></div></div>
+							<div id="authorScreenCloseButton"></div>
+						<div id="authorScreenNameTextHolder"></div>
+						<div id="authorScreenDescTextHolder"></div>
+						<div id="authorScreenBioTextHolder"></div>
+						
+					</div>
+					<span class="decoration9 scale"></span>
+					<span class="decoration10 pulse"></span>		
+				</div>		
+			</div>
+			
+
+			<!-- ATTRACT SCREEN -->
+			<div id="attractScreen" class="screenDiv">
+				<div class="attractorTextbox">
+					<div class="barViewport aboveBarViewport">
+						<div class="barContent aboveBar attractorAnim">
+							<span class="attractorHeadline">Placeholder</span>
+						</div>
+					</div>
+					<div class="dividerBar attractorAnim"></div>
+					<div class="barViewport belowBarViewport">
+						<div class="barContent belowBar attractorAnim">
+							<span class="attractorBodyText">Placeholder</span>
+						</div>
+					</div>
+				</div>
+				<div class="touchToStartBtn"><span class="dot"></span><span class="btnText">Touch the screen to start</span></div>
+				<div class="textBackdropDiv"></div>
+				<div class="categoryIconDiv attractorAnim">
+					<img src="img/ui/category.svg" class="attractorAnim">
+				</div>
+				<video id="attractorVid" autoplay loop class="attractorVid">
+					<source src="media/antarctic-diaries-bg.mp4" type="video/mp4">
+				</video>
+			</div>
+
+		</div>
+		
+		<div class="screenDiv" id="debugWrapper" hidden>
+			
+			<div class="debugButton" id="toggleDebugScreenVizButton"><p class="greenDebugText">CLOSE</p></div>
+			<div class="debugButton" id="refreshPageButton"><p class="greenDebugText">REFRESH<br><span class="threeQuarterText">Refresh page and reload all data</span><p></div>
+			
+			<div id="debugStatusWrapper">
+				<h1 id="applicationNameAndVersionH1"></h1>
+				<h3 id="applicationUpdateDeveloperAndDateH3"></h3>
+				<p id="applicationCommentP"></p>
+				<p id="applicationInactivityTimer"></p>
+			</div>
+			<hr>
+			<h3 id="debugQuoteListHeading"></h3>
+			<p>Clicking on a quote title below will present all of the quote details in the <em>Selected quote details</em> box below.</p>
+			<ul id="debugQuoteList"></ul>
+			<div id="debugQuoteChecker">
+				<p><strong>Selected quote details:</strong><hr></p>
+				<p class="blueDebugText" id="debugQuoteCheckerNumber">- Quote number: <span></span></p>
+				<p class="blueDebugText" id="debugQuoteCheckerImageCode">- Image code: <span></span></p>
+				<p class="blueDebugText" id="debugQuoteCheckerImageObjectImageNumber">------ Image number: <span></span></p>
+				<p class="blueDebugText" id="debugQuoteCheckerImageObjectImageCode">------ Image code: <span></span></p>
+				<p class="blueDebugText" id="debugQuoteCheckerImageObjectImageThumbFileName">------ Image thumb file name: <span></span></p>
+				<p class="blueDebugText" id="debugQuoteCheckerImageObjectIimageLargeFileName">------ Image large file name: <span></span></p>
+				<p class="blueDebugText" id="debugQuoteCheckerImageObjectImageCredit">------ Image credit: <span></span></p>
+				<p class="blueDebugText" id="debugQuoteCheckerImageObjectImageApproved">------ Image approved: <span></span></p>
+				<p class="blueDebugText" id="debugQuoteCheckerBody">- Body: <span></span></p>
+				<p class="blueDebugText" id="debugQuoteCheckerAuthor">- Author: <span></span></p>
+				<p class="blueDebugText" id="debugQuoteCheckerImageDescription">- Image Description: <span></span></p>
+				<p class="blueDebugText" id="debugQuoteCheckerDate">- Date: <span></span></p>
+				<p class="blueDebugText" id="debugQuoteCheckerObjectName">- Object name: <span></span></p>
+				<p class="blueDebugText" id="debugQuoteCheckerPageNumber">- Page number: <span></span></p>
+				<p class="blueDebugText" id="debugQuoteCheckerAccessionNumber">- Accession number: <span></span></p>
+				<p class="blueDebugText" id="debugQuoteCheckerCategory">- Category: <span></span></p>
+				
+			</div>
+			
+			<div id="debugGlossaryTempHolder"></div>
+			<div id="debugAuthorTempHolder"></div>
+			
+			<!--
+			<section id="options">
+				
+			</section>
+			-->
+			
+		</div>
+
+
+		<div id="stillThereScreen" class="screen" hidden>
+			<h1>Are you still there?</h1>
+			<span><h3>Touch the screen or I will restart in <span id="stillThereSpan">X</span> second<span id="stillThereSpanS">s</span></h3></span>
+			<button id="stillThereBtn" class="animated pulse infinite">Continue</button>
+		</div>
+
+		
+		<script src="js/utils.js"></script>
+		<script src="js/main.js"></script>
+	
+		<script src="js/jquery.mobile-1.5.0-alpha.1.min.js"></script>
+		
+	</body>
+	
+</html>
