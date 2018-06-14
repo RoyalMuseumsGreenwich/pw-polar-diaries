@@ -74,7 +74,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #955525;
+  background: #ed480d;
   width: 0px;
   height: 180px;
   animation: categoryIconDiv 24s ease-in-out infinite; }
@@ -92,7 +92,7 @@
   top: 440px;
   left: 140px;
   z-index: 100;
-  background: #955525;
+  background: #ed480d;
   animation: dividerBar 24s linear infinite;
   transition: width 1s linear; }
 
@@ -225,7 +225,8 @@
   .touchToStartBtn .btnText {
     width: 100%;
     text-align: center;
-    margin-right: 25px; }
+    margin-right: 75px; 
+}
 
 @keyframes startBtn {
   0% {
@@ -285,7 +286,7 @@
   width: 50%;
   height: 100%; }
 #attractScreen .touchToStartBtn {
-  width: 720px;
+/*  width: 720px;*/
   left: 120px;
   bottom: 120px; }
 #attractScreen .categoryIconDiv {
