@@ -15,7 +15,7 @@
 	
 	<settings>
 		
-		<debugModeEnabled>false</debugModeEnabled>
+		<debugModeEnabled>true</debugModeEnabled>
 		<imagePaths>
 			<uiImagePath>img/ui/</uiImagePath>
 			<thumbImagePath>img/t/</thumbImagePath>
@@ -38,11 +38,6 @@
 		</stringValues>
 		
 	</settings>
-
-	<attractor>
-		<name>Polar Diaries</name>
-		<text>Explore the stories and experiences of polar explorers in their own words, through their personal diaries.</text>
-	</attractor>
 	
 	<quotes>
 		
@@ -1948,7 +1943,7 @@
 			<largeFileName><![CDATA[landscapes-and-seascapes/4.jpg]]></largeFileName>
 			<credit></credit>
 			<approved>1</approved>
-			<layout>1</layout>
+			<layout>4</layout>
 		</image>
 		<image number="74">
 			<imageCode>img74</imageCode>
@@ -3174,20 +3169,20 @@
 		
 			<person number="30">
 			<imageCode>img170</imageCode>
-			<authorFullName><![CDATA[Thomas Orde-Lees]]></authorFullName>
+			<authorFullName><![CDATA[Thomas Hans Orde-Lees]]></authorFullName>
 			<authorName><![CDATA[Thomas Orde-Lees]]></authorName>
-			<authorDesc><![CDATA[(1887-1946), born in Melbourne, Australia]]></authorDesc>
-			<authorBio><![CDATA[TBD]]></authorBio>
-			<authorCredit><![CDATA[TBD]]></authorCredit>
+			<authorDesc><![CDATA[(1877-1958), born in Aachen, Prussia ]]></authorDesc>
+			<authorBio><![CDATA[Orde-Lees was a marine in the Royal Navy, subsequently serving in China during the Boxer Rebellion (1899-1901). He failed to get a place on Scott’s 1910 Terra Nova Expedition but Ernest Shackleton invited him to join the Imperial Trans-Antarctic Expedition in 1914, as motor expert and storekeeper. While in Antarctica, he enjoyed experimenting with riding a bicycle on the ice. Orde-Lees served in the Royal Flying Corps during the First World War, before moving to Japan. Here, his post-war career included teaching English, training Japanese Air Force parachutists and reading the news on Japanese radio. Orde-Lees and his family were forced to leave the country after Japan entered the Second World War. They moved to New Zealand, where he helped organise the Commonwealth Trans-Antarctic Expedition (1955-58).]]></authorBio>
+			<authorCredit><![CDATA[T. Orde-Lees, Scott Polar Research Institute, University of Cambridge, with permission, P2001/86/161]]></authorCredit>
 		</person>
 		
 			<person number="31">
 			<imageCode>img176</imageCode>
-			<authorFullName><![CDATA[Bert Lincoln]]></authorFullName>
+			<authorFullName><![CDATA[Bert Clive Burnell Lincoln]]></authorFullName>
 			<authorName><![CDATA[Bert Lincoln]]></authorName>
-			<authorDesc><![CDATA[(1887-1946), born in Melbourne, Australia]]></authorDesc>
-			<authorBio><![CDATA[TBD]]></authorBio>
-			<authorCredit><![CDATA[TBD]]></authorCredit>
+			<authorDesc><![CDATA[(1888-1918), born in Hindmarsh, South Australia ]]></authorDesc>
+			<authorBio><![CDATA[Lincoln went to Adelaide Agricultural School before becoming a sailor. He served as an able seaman on board the Aurora, sent to collect Douglas Mawson and members of the Australasian Antarctic Expedition during 1912-13. Like his shipmate Stanley Taylor, he disobeyed orders and kept a private journal. Lincoln’s detailed diary entries described the challenges of sailing in Antarctic waters and criticised the way the expedition was run. After his return to Australia, he enlisted and fought in the First World War. He later served in the Imperial Camel Corps and was killed in Palestine aged 30. The exact location of his grave remains unknown but he is commemorated at the Commonwealth cemetery in Jerusalem.  ]]></authorBio>
+			<authorCredit><![CDATA[Photograph of Bert Lincoln. By kind permission of Sharyn Smith and Douglas H. Quin]]></authorCredit>
 		</person>
 		
 	</authors>

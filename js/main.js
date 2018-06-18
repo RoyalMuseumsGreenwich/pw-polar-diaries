@@ -392,8 +392,8 @@ function processXml(){
 	addAuthorLinkTagsToQuoteBodyText();
 	
 	//	Attract screen
-	$('#attractScreen .attractorHeadline').text($xml.find('attractor name').text());
-	$('#attractScreen .attractorBodyText').text($xml.find('attractor text').text());
+	$('#attractScreen .attractorHeadline').text($xml.find('attractMessageSubhead').text());
+	$('#attractScreen .attractorBodyText').text($xml.find('attractMessageBody').text());
 	$('#attractorVid').get(0).play();
 
 	if(!debugMode) {
